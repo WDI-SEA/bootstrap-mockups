@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page3</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Company Logo</a>
+		</div>
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#"><u>Home</u></a></li>
+			<li><a href="#">|</a></li>
+			<li><a href="#"><u>Products</u></a></li>
+			<li><a href="#">|</a></li>
+			<li class="active"><a href="#">About Us</a></li>
+			<li><a href="#">|</a></li>
+			<li><a href="#"><u>Contact Us</u></a></li>
+		<form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>				
+		</ul>
+	</div>
+</nav>
+<div class="container-fluid" id="container_main">
+	<section class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<ol class="breadcrumb" id="breadcrumb">
+				<li><a href="#">Home</a></li>
+				<li class="active">About Us</li>
+			</ol>
+		</div>
+	</section>
+	<section class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h1>Products. <small>We build amazing stuff.</small></h1>
+		</div>
+	</section>
+
+	<hr>
+
+	<section class="row">
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 text">
+			<h2>Product One.<br>
+			<small>This is an awesome product one description.</small></h2>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<p>
+				<button type="button" class="btn btn-default btn-lg pull-right sell_button">Free Trial</button>
+				<button type="button" class="btn btn-primary btn-lg pull-right sell_button">Buy Now!</button>
+			</p>
+		</div>
+	</section>
+
+		<div id="carousel-id" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carousel-id" data-slide-to="0" class=""></li>
+				<li data-target="#carousel-id" data-slide-to="1" class=""></li>
+				<li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+			</ol>
+			<div class="carousel-inner">
+				<div class="item">
+					<img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzc3NyI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojN2E3YTdhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+Rmlyc3Qgc2xpZGU8L3RleHQ+PC9zdmc+">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Example headline.</h1>
+							<p>Note: If you're viewing this page via a <code>file://</code> URL, the "next" and "previous" Glyphicon buttons on the left and right might not load/display properly due to web browser security rules.</p>
+							<p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="item">
+					<img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzY2NiI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNmE2YTZhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+U2Vjb25kIHNsaWRlPC90ZXh0Pjwvc3ZnPg==">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>Another example headline.</h1>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							<p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+						</div>
+					</div>
+				</div>
+				<div class="item active">
+					<img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI5MDAiIGhlaWdodD0iNTAwIj48cmVjdCB3aWR0aD0iOTAwIiBoZWlnaHQ9IjUwMCIgZmlsbD0iIzU1NSI+PC9yZWN0Pjx0ZXh0IHRleHQtYW5jaG9yPSJtaWRkbGUiIHg9IjQ1MCIgeT0iMjUwIiBzdHlsZT0iZmlsbDojNWE1YTVhO2ZvbnQtd2VpZ2h0OmJvbGQ7Zm9udC1zaXplOjU2cHg7Zm9udC1mYW1pbHk6QXJpYWwsSGVsdmV0aWNhLHNhbnMtc2VyaWY7ZG9taW5hbnQtYmFzZWxpbmU6Y2VudHJhbCI+VGhpcmQgc2xpZGU8L3RleHQ+PC9zdmc+">
+					<div class="container">
+						<div class="carousel-caption">
+							<h1>One more for good measure.</h1>
+							<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+							<p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+			<a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+		</div>
+
+	<section class="row">
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<h2>Product Q&A</h2>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar, nisl sit amet congue congue, tellus purus commodo dui, at tempus sem leo in tellus. Curabitur at finibus ante. Donec vulputate nisl sed nunc finibus, vel pretium nunc tristique. Morbi tincidunt massa vitae mollis egestas. Nam facilisis pretium nisi, ut placerat nisi dapibus et. Nulla facilisi. Donec hendrerit sapien eu leo aliquam, tristique semper nisl fermentum. Ut eget ullamcorper enim. Ut eu lacinia turpis, non accumsan mi. Aenean vitae enim eu orci varius mattis fermentum vestibulum nisl
+			</p>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<h2>Product Testimonials</h2>
+			<p>
+				Nam viverra justo malesuada erat hendrerit, eget cursus eros fringilla. Duis vestibulum hendrerit eros id iaculis. Sed et aliquam ipsum. Sed id ante at arcu volutpat bibendum at volutpat ipsum. Cras nec ornare metus. Ut dolor nulla, luctus non arcu et, fringilla ultrices odio. Mauris efficitur eget libero at euismod.
+			</p>
+		</div>
+	</section>
+
+	<hr>
+
+</div>
+
+<div class="container-fluid">
+	<nav>
+	 	<ul class="pager">
+		    <li class="previous"><a href="#"><span aria-hidden="true">&#10094;&#10094;</span>  Previous Product</a></li>
+		    <li class="next"><a href="#">Next Product  <span aria-hidden="true">&#10095;&#10095;</span></a></li>
+	 	</ul>
+	</nav>
+
+</div>
+
+<div class="container-fluid">
+
+	<hr>
+
+	<section class="row">
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="get_in_touch">
+			<h3 class="text-center">
+				Wanna get in touch? Email us at office@awesomeproduct.com
+			</h3>
+		</div>
+	</section>
+
+	<hr>
+
+	<section class="row">
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-4">
+			<section class=row>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-1 no-padding">
+					<img src="1459500774_03-twitter.png" class="pull-right">
+				</div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-2 no-padding">
+					<img src="1459501619_facebook2.png" class="center-block">
+				</div>
+				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-2 no-padding">
+					<img src="1459501198_11-linkedin.png" class="pull-left">
+				</div>
+			</section>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h3 class="text-center"><small>
+				(c) Copyight 2013 Product Name. All rights reserved.
+			</h3></small>
+		</div>
+	</section>
+</div>
+
+  <script src="https://code.jquery.com/jquery.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
