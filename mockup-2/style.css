@@ -64,6 +64,14 @@ footer {
   margin-top: 4.5em;
 }
 
+.scroll-product button {
+  margin-top: 25px;
+}
+
+.scroll-product {
+  border-top: solid grey;
+}
+
 .contact {
   border-top: solid grey;
   border-bottom: solid grey;
