@@ -1,0 +1,44 @@
+
+.navbar-brand {
+padding-left: 35px
+}
+
+.breadcrumb {
+  padding-left: 35px
+}
+
+h1{
+  padding-left: 35px
+
+}
+
+.page-header small {
+  color: #777;
+ padding-left: 35px
+}
+
+
+.btn {
+  background-color: #777 !important;
+  color: white;
+}
+
+.panel-body {
+  text-align: center;
+ 
+}
+
+.panel {
+  border-right: none !important;
+  border-left: none !important;
+}
+
+.footer {
+  text-align: center;
+}
+
+.copy-right {
+  text-align: center;
+  font-size: 12px;
+  color: #777;
+}
