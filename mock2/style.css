@@ -1,3 +1,36 @@
-#person1, #person2{
-  
+#footer, #touch {
+  text-align: center;
+}
+
+.navbar-right{
+  float:right;
+}
+
+#bigger {
+  color: black;
+  font-size: 32px;
+/*  font-weight: bold;
+*/}
+
+h3 {
+  font-weight: normal;
+  color: gray;
+}
+
+/*this isn't working for adding the line between links*/
+/*li {
+border-right:1px solid #FFF
+
+}*/
+
+.btn-social-icon {
+  color: black;
+}
+
+#rat-pics {
+  margin-top: 30px;
+}
+
+#email {
+  width:100%;
 }

@@ -3,66 +3,92 @@
 <head>
   <title>LizardMen: About Us</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <nav class="navbar navbar-default" role="navigation">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">
-          <img alt="Brand" src="lizardmen.png">
-        </a>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="#"></a>
-      </div>    
-      <ol class="navbar-right list-inline">
-        <li><a href="#">Home </a></li> |
-        <li><a href="#">Products</a></li> |
-        <li><a href="#">About Us </li> |
-        <li><a href="#">Contact Us</li>
-      </ol>
-      <form class="navbar-form navbar-right" role="search">
-        <div class="form-group">
-        <input type="text" class="form-control" placeholder="Search">
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#"></a>
+      <img alt="Brand" src="lizardmen.png">
+        <div class="pull-right">
+          <ul class="nav navbar-nav list-inline">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
-        <button type="submit" class="btn btn-default">Submit</button>
-      </form>
-      </div><!-- /.navbar-collapse -->
-    </div>
-  </nav>
+<!--   couldn't figure out how to place glyphicon glyphicon-search in search bar! -->
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+        </form>
+  </div>
+</nav>
+<div class="row">
   <section id="About" class="list-inline"> 
-        <h1> About Us. </h1>
-        <h2>We're awesome humans.</h2>
-           <hr>
+      <h3> <span id="bigger"> About.</span> We are awesome humans.</h3>
+         <hr>
   </section>
-   <section id="person1" class="col-md-5 col-md-offset-1">
-        <img class="" src="person1.png" width="500px">
-          <h2>Person One</h2>
-            <p>This is not to discredit the idea that their dryer was, in this moment, a dingbats ball. This could be, or perhaps an eyeliner sees a cupcake as a dungy lyric. The circulation is a gate.</p>
-            <a href="http://www.facebook.com">Facebook</a>|
-            <a href="http://www.twitter.com">Twitter</a>
+</div>
+<div class="row">
+  <section id="the-company" class="col-md-offset-1 col-md-5">
+    <h3> The Company </h3>
+    <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Efficiently unleash cross-media information without cross-media value. Quickly maximize timely deliverables for real-time schemas. Dramatically maintain clicks-and-mortar solutions without functional solutions.</p>
+  </section>
+  <section id="motto" class="col-md-offset-2 col-md-4">
+    <img src="sushi-motto.jpg" class="img-responsive img-rounded" alt="coming up from the underground">
+  </section>
+</div>
+<div class="row">
+  <hr>
+  <section id="person1" class="col-md-5 col-md-offset-1">
+    <div class="panel panel-default">
+     <div class="panel-body">
+      <img class="" src="person1.png" class="img-responsive" width="500px">
+        <h2>Person One</h2>
+          <p>This is not to discredit the idea that their dryer was, in this moment, a dingbats ball. This could be, or perhaps an eyeliner sees a cupcake as a dungy lyric. The circulation is a gate.</p>
+          <a href="http://www.facebook.com">Facebook</a>|
+          <a href="http://www.twitter.com">Twitter</a>
+      </div>
+    </div>
+  </section>
 
-      </section>
-      <section id="person2" class="col-md-offset-1 col-md-5">
-        <img class="" width="500px" src="person2.jpg">
+  <section id="person2" class="col-md-offset-1 col-md-5">
+    <div class="panel panel-default">
+      <div class="panel-body">
+        <img class="" width="500px" src="person2.jpg" class="img-responsive">
           <h2>Person Two</h2>
             <p>A captain sees a captain as a lymphoid drama. They were lost without the lither cabinet that composed their march. A sunproof girl is a berry of the mind.</p>
             <a href="http://www.facebook.com/">Facebook</a> |
             <a href="http://www.twitter.com">Twitter</a>
-      </section>
-      <section id="touch" class="">
-        <hr>
-         <h3>Wanna get in touch? Email us at office@weliveinthesewers.com</h3>
-         <hr>
-      </section>
-      <section id="footer" class="">
-        <i class="glyphicon glyphicon-tint"></i>
-        <i class="glyphicon glyphicon-tint"></i>
-        <i class="glyphicon glyphicon-tint"></i>
-        <p>(c) Copyright 2016 LizardMen. All Rights Reserved.</p>
-      </section>
+      </div>
+    </div>
+  </section>
+</div>
+<div class="row">
+  <section id="touch" class="">
+   <hr>
+    <h3>Wanna get in touch? Email us at office@weliveinthesewers.com</h3>
+      <hr>
+  </section>
+</div>
+<div id="footer">
+  <section class="row inline-block">
+    <a class="btn btn-block btn-social btn-twitter">
+      <span class="fa fa-twitter"></span>
+    </a>      
+    <a class="btn btn-block btn-social-icon btn-facebook">
+      <span class="fa fa-facebook"></span>
+     </a>
+     <a class="btn btn-block btn-social-icon btn-linkedin">
+       <span class="fa fa-linkedin"></span>
+     </a>
+    <p>(c) Copyright 2016 LizardMen. All Rights Reserved.</p>
+  </section>
+</div>
 
   <script src="//code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
