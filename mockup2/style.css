@@ -1,0 +1,31 @@
+hr {
+/*	width: 90%;
+	align: center;
+	size: 3px;*/
+	border-width: 3px;
+}
+
+p {
+	margin-top: 5%;
+	font-size: 15px;
+	color: gray;
+	opacity: .9;
+}
+
+input {
+	margin-top: 8%;
+}
+
+#hr-top {
+	margin-top: 4%;
+}
+
+i {
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+#bottom {
+	margin-bottom: 15%;
+}
+
