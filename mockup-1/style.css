@@ -33,7 +33,7 @@ h5 {
 
 .tagline {
   float: right;
-  margin: 15px 23.4em 0px 0px;
+  margin: 15px;
   font-family: arial;
 
 }
@@ -44,5 +44,14 @@ h5 {
 
 .product-pics {
   border-top: solid lightgray;
+
   margin: 4em 10px;
 }
+
+.placeholder-img {
+  height: 200px;
+  width: 300px;
+  margin-top: 4.5em;
+}
+
+
