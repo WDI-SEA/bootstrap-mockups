@@ -3,7 +3,7 @@
 	float: right;
 	font-size: 90%;
 	margin-right: 5%;
-	margin-top:1.5%;
+	margin-top: -1%;
 }
 
 h1 {
@@ -34,4 +34,6 @@ h3{
 img {
 	max-height: 400px;
 }
-
+#motto {
+	text-align: center;
+}
