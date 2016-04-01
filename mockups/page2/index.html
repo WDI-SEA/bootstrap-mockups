@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Page1</title>
+	<title>Page2</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
 <nav class="navbar navbar-default" role="navigation">
 	<div class="container-fluid">
+		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
 				<span class="sr-only">Toggle navigation</span>
@@ -21,56 +21,48 @@
 		<ul class="nav navbar-nav navbar-right">
 			<li><a href="#"><u>Home</u></a></li>
 			<li><a href="#">|</a></li>
-			<li class="active"><a href="#">Products</a></li>
+			<li><a href="#"><u>Products</u></a></li>
 			<li><a href="#">|</a></li>
-			<li><a href="#"><u>About Us</u></a></li>
+			<li class="active"><a href="#">About Us</a></li>
 			<li><a href="#">|</a></li>
 			<li><a href="#"><u>Contact Us</u></a></li>
+		<form class="navbar-form navbar-left" role="search">
+			<div class="form-group">
+				<input type="text" class="form-control" placeholder="Search">
+			</div>
+			<button type="submit" class="btn btn-default">Submit</button>
+		</form>				
 		</ul>
 	</div>
 </nav>
-
 <div class="container-fluid" id="container_main">
 	<section class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 			<ol class="breadcrumb" id="breadcrumb">
 				<li><a href="#">Home</a></li>
-				<li class="active">Products</li>
+				<li class="active">About Us</li>
 			</ol>
 		</div>
 	</section>
 	<section class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-			<h1>Products. <small>We build amazing stuff.</small></h1>
+			<h1>About Us. <small>Who we are.</small></h1>
 		</div>
 	</section>
 
 	<hr>
 
 	<section class="row">
-		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			<img class="img-responsive" src="http://lorempixel.com/400/200/sports/1">
-			<h3>Product One</h3>
-			<h3><small>This is an awesome product one description.</small></h3>
-			<button type="button" class="btn btn-default btn-lg">
-				Learn More
-			</button>
+		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<h2>The Company</h2>
 		</div>
-		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			<img class="img-responsive" src="http://lorempixel.com/400/200/sports/2">
-			<h3>Product One</h3>
-			<h3><small>This is an awesome product one description.</small></h3>
-			<button type="button" class="btn btn-default btn-lg">
-				Learn More
-			</button>
+		<div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam pulvinar, nisl sit amet congue congue, tellus purus commodo dui, at tempus sem leo in tellus. Curabitur at finibus ante. Donec vulputate nisl sed nunc finibus, vel pretium nunc tristique. Morbi tincidunt massa vitae mollis egestas. Nam facilisis pretium nisi, ut placerat nisi dapibus et. Nulla facilisi. Donec hendrerit sapien eu leo aliquam, tristique semper nisl fermentum. Ut eget ullamcorper enim. Ut eu lacinia turpis, non accumsan mi. Aenean vitae enim eu orci varius mattis fermentum vestibulum nisl
+			</p>
 		</div>
-		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">
-			<img class="img-responsive" src="http://lorempixel.com/400/200/sports/3">
-			<h3>Product One</h3>
-			<h3><small>This is an awesome product one description.</small></h3>
-			<button type="button" class="btn btn-default btn-lg">
-				Learn More
-			</button>
+		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 jumbotron text-center">
+			<h3>Our Motto</h3>
 		</div>
 	</section>
 
@@ -79,7 +71,50 @@
 </div>
 
 <div class="container-fluid">
-	<section>
+	<section class="row">
+		<h2 id="staff_title">The Team</h2>
+	</section>
+	<section class="row" id="staff">
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="nameplate">
+				<img src="http://lorempixel.com/image_output/people-q-g-640-480-9.jpg" class="pull-right img-responsive faceplate">
+				<h3>John Doe</h3>
+				<p>
+					Donec sollicitudin nec velit id posuere. Maecenas efficitur rutrum sem. Donec dapibus dictum purus, vel vehicula risus. Morbi nisi lacus, fringilla id dolor eget, scelerisque tempus ex. Duis id efficitur tellus, non eleifend risus. In hac habitasse platea dictumst. Etiam aliquam arcu eu viverra molestie.
+				</p>
+				<ul class="list-inline">
+					<li><a href="#"><u>Twitter</u></a></li>
+					<li><a href="#">|</a></li>
+					<li><a href="#"><u>Facebook</u></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+			<div class="nameplate">
+				<img src="http://lorempixel.com/image_output/people-q-g-640-480-9.jpg" class="pull-right img-responsive faceplate">
+				<h3>John Doe</h3>
+				<p>
+					Donec sollicitudin nec velit id posuere. Maecenas efficitur rutrum sem. Donec dapibus dictum purus, vel vehicula risus. Morbi nisi lacus, fringilla id dolor eget, scelerisque tempus ex. Duis id efficitur tellus, non eleifend risus. In hac habitasse platea dictumst. Etiam aliquam arcu eu viverra molestie.
+				</p>
+				<ul class="list-inline">
+					<li><a href="#"><u>Twitter</u></a></li>
+					<li><a href="#">|</a></li>
+					<li><a href="#"><u>Facebook</u></a></li>
+				</ul>
+			</div>
+		</div>
+	</section>
+
+	<hr>
+
+</div>
+
+
+
+
+
+<div class="container-fluid">
+	<section class="row">
 		<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12" id="get_in_touch">
 			<h3 class="text-center">
 				Wanna get in touch? Email us at office@awesomeproduct.com
@@ -89,9 +124,9 @@
 
 	<hr>
 
-	<section>
+	<section class="row">
 		<div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xs-offset-4">
-			<section>
+			<section class=row>
 				<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 col-xs-offset-1 no-padding">
 					<img src="1459500774_03-twitter.png" class="pull-right">
 				</div>
@@ -111,14 +146,9 @@
 	</section>
 </div>
 
-
-
   <script src="https://code.jquery.com/jquery.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
   <script src="script.js"></script>
 </body>
 </html>
 
-<!-- Latest compiled and minified CSS & JS -->
-
-<!-- 1 23 45 67 89 AB C
