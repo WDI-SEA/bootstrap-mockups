@@ -17,11 +17,6 @@ h3 {
   color: gray;
 }
 
-/*this isn't working for adding the line between links*/
-/*li {
-border-right:1px solid #FFF
-
-}*/
 
 .btn-social-icon {
   color: black;
@@ -33,4 +28,8 @@ border-right:1px solid #FFF
 
 #email {
   width:100%;
+}
+
+.inline {
+  display: inline-block;
 }
