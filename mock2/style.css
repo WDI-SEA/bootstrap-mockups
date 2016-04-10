@@ -17,11 +17,9 @@ h3 {
   color: gray;
 }
 
-/*this isn't working for adding the line between links*/
-/*li {
-border-right:1px solid #FFF
-
-}*/
+img{
+  max-width: 100%;
+}
 
 .btn-social-icon {
   color: black;
@@ -33,4 +31,8 @@ border-right:1px solid #FFF
 
 #email {
   width:100%;
+}
+
+.people{
+  padding-top: 20px;
 }
