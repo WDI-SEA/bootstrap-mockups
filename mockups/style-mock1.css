@@ -1,0 +1,60 @@
+p, div, ul, body {
+	margin: 0;
+	padding: 0;
+}
+/*body div {
+	border: .5px solid black;
+}*/
+#home {
+	padding-left: 20px;
+}
+#site-header {
+	background-color: #E0E0E0;
+	border: 1px solid #D0D0D0;
+}
+#site-header div {
+	font-size: 14px;
+	padding: 15px 0px;
+}
+#logo p {
+	padding-left: 40px;
+}
+#nav {
+	float: right;
+}
+#nav li {
+	margin-right: 5px;
+}
+.breadcrumb {
+	padding-left: 0px;
+	background-color: white;
+}
+#page-content {
+	margin-left: 10px;
+}
+#page-header {
+	border-bottom: 2px solid #E0E0E0;
+}
+
+#breadcrumb {
+	margin: 15px 0px;
+	color: gray;
+}
+#page-tagline h1, h3 {
+	margin: 0;
+	margin-bottom: 10px;
+	display: inline-block;
+}
+#page-tagline h3 {
+	color: gray;
+}
+#body-content {
+	margin-top: 40px;
+}
+#body-content div {
+	height: 300px;
+}
+#body-content img {
+	height: 100%;
+	width: 100%;
+}
