@@ -1,0 +1,96 @@
+
+button {
+  color: white;
+  border: solid darkgrey;
+}
+
+li {
+  display: inline;
+}
+
+header {
+  margin: 20px 0px 0px 0px;
+}
+
+h2{
+  margin:10px;
+  font-size: 15px;
+  font-family: arial;
+}
+
+h5 {
+  margin: 3px 0px 0px 20px;
+  font-family: arial;
+  color: gray;
+}
+
+footer {
+  margin-bottom: 15%;
+}
+
+.searchbar {
+  margin-top: -30px;
+}
+
+.navbar {
+  margin-top: -25px;
+}
+
+.products {
+  font-size: 30px;
+  float: left;
+}
+
+.tagline {
+  float: right;
+  margin: 15px;
+  font-family: arial;
+
+}
+
+.buttons {
+  margin-top: -2.5em;
+}
+
+.product-pics {
+  border-top: solid lightgray;
+
+  margin: 4em 10px;
+}
+
+.placeholder-img {
+  height: 75%;
+  width: 100%;
+  margin-top: 2em;
+}
+
+.scroll-product button {
+  margin-top: 25px;
+}
+
+.scroll-product {
+  border-top: solid grey;
+}
+
+.team {
+  border-top: solid gray;
+  clear: both;
+}
+
+.bio {
+  margin-top: 1em;
+}
+
+.contact {
+  border-top: solid grey;
+  border-bottom: solid grey;
+  margin:10% 0px 0px 5%;
+  clear: both;
+}
+
+.social-links {
+  height: 34px;
+  width: 100px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
