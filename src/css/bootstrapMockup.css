@@ -1,0 +1,66 @@
+body{
+
+}
+
+div {
+}
+
+#logo{
+  width:100px;
+}
+
+#main{
+  height: 400px;
+}
+
+.four{
+  width:80%;
+  display:block;
+  margin:0 auto;
+}
+
+p{
+  font-size: 18px;
+  font-family: wf_segoe-ui_semilight,wf_segoe-ui_light,wf_segoe-ui_normal,'Segoe UI Semilight','Segoe UI Light','Segoe UI',Arial,sans-serif;
+  text-align:center;
+}
+
+#yellowImage{
+  height: 400px;
+  background-image: url("https://c.s-microsoft.com/en-us/CMSImages/WinApps_SummerBG_0515_1920x480_EN_US.jpg?version=38073E5F-03FF-E2BB-D77F-44A94668FC2A");
+  background-size: 130%;
+  background-repeat: no-repeat;
+}
+
+.paddingRow{
+  height:100px;
+  text-align:center;
+}
+
+.darkGrey{
+  background-color:darkgrey;
+  padding: 10px;
+}
+
+.indented{
+  margin-left: 100px;
+  margin-right: 20px;
+  display:inline;
+}
+
+h4{
+  font-size: 10px;
+}
+
+h3{
+  font-size: 14px;
+}
+
+.lowerCols{
+  padding: 0 0 0 80px;
+  width: 200px;
+}
+
+.lightGrey{
+  background-color:lightgrey;
+}
