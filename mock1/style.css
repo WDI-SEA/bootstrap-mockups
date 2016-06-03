@@ -1,0 +1,35 @@
+#footer, #touch {
+  text-align: center;
+}
+
+.navbar-right{
+  float:right;
+}
+
+#bigger {
+  color: black;
+  font-size: 32px;
+/*  font-weight: bold;
+*/}
+
+h3 {
+  font-weight: normal;
+  color: gray;
+}
+
+
+.btn-social-icon {
+  color: black;
+}
+
+#rat-pics {
+  margin-top: 30px;
+}
+
+#email {
+  width:100%;
+}
+
+.inline {
+  display: inline-block;
+}

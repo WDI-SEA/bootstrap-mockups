@@ -1,0 +1,38 @@
+#footer, #touch {
+  text-align: center;
+}
+
+.navbar-right{
+  float:right;
+}
+
+#bigger {
+  color: black;
+  font-size: 32px;
+/*  font-weight: bold;
+*/}
+
+h3 {
+  font-weight: normal;
+  color: gray;
+}
+
+img{
+  max-width: 100%;
+}
+
+.btn-social-icon {
+  color: black;
+}
+
+#rat-pics {
+  margin-top: 30px;
+}
+
+#email {
+  width:100%;
+}
+
+.people{
+  padding-top: 20px;
+}
