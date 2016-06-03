@@ -1,0 +1,39 @@
+#div1{
+  height: 25px;
+  padding-top: 10px;
+  padding-left: 50px;
+}
+#div7{
+  background-color: grey;
+}
+#div4{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+#logo{
+  display: inline;
+  padding-right: 10px;
+  height: 25px;
+}
+
+.dropdown{
+  display: inline;
+  padding: 0px 10px;
+}
+
+#inputForm {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.row.no-gutter{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
