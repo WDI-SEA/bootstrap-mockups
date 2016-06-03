@@ -1,0 +1,227 @@
+body {
+  padding-left: 30px;
+  padding-right: 30px;
+
+
+}
+
+
+
+.breadcrumb {
+  background-color: transparent;
+  font-size: 12px;
+}
+
+a {
+  color: gray;
+}
+
+div.thumbnail img {
+  padding: 15px 15px;
+}
+
+div.container-fluid {
+  border: 1px solid lightgray;
+  margin-bottom: 30px;
+  border-right-style: none;
+  border-left-style: none;
+
+}
+
+a.btn.btn-primary {
+  background-color: gray;
+  color: lightgray;
+}
+
+.thumbnail {
+  margin-top: 30px;
+
+}
+
+h1 {
+  font-family: Helvetica;
+  font-size: 20px;
+  margin-left: 35px;
+
+}
+
+div.container {
+  margin-left: -10px;
+}
+
+li {
+  margin-left: -12px;
+
+}
+
+div.containerTwo {
+  border: 1px solid lightgray;
+  border-left-style: none;
+  border-right-style: none;
+  border-top-style: none; 
+
+}
+
+div.containerTwo p {
+  font-size: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+div.bottom {
+  text-align: center;
+
+}
+
+i.fa.fa-twitter {
+  font-size: 20px;
+  padding-right: 8px;
+  padding-top: 30px;
+}
+
+i.fa.fa-facebook-square {
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+i.fa.fa-linkedin {
+  font-size: 20px;
+}
+
+p.copy {
+  font-size: x-small;
+  color: gray;
+  padding-top: 10px;
+
+}
+
+div.caption p {
+  color: gray;
+
+}
+
+div.caption {
+  margin: 10px;
+}
+
+.breadcrumb>li+li:before {
+  padding-left: 20px;
+}
+
+a.navbar-brand {
+    font-size: 12px;
+}
+
+.navbar-default .navbar-brand {
+    color: black;
+}    
+
+nav.navbar.navbar-default {
+    height: 52px;
+}
+
+ul li a{
+    color: blue;
+    text-decoration: underline;
+  }
+
+ul {
+  list-style-type: none;
+  display: inline-block;
+}  
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;    
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;    
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.form-control {
+  border: 2px solid black;
+  border-radius: 20px;
+
+} 
+
+div.col-xs-6 {
+  margin-left: 190px;
+}   
+
+.right-inner-addon i {
+    position: absolute;
+    left: 875px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+ .right-inner-addon input {
+    padding-right: 100px;
+    margin-left: 370px;   
+
+  }
+
+div.well.well-md.col-sm-6.col-md-5.col-lg-2-offset-1 {
+  text-align: center;
+  height: 100px;
+  width: 200px;
+  border-radius: 15px;
+  margin-left: 200px;
+
+
+}
+
+
+div.container.col-sm-6.col-md-6.col-lg-3-offset-2 {
+  margin-left: 20px;
+
+}
+
+/*div.container.col-sm-6.col-md-6.col-lg-3-offset-2 h1 {
+  margin-left: 20px;
+}*/
+
+
+h1.about {
+  border-bottom: 1px solid lightgrey;
+}
+
+h1.company {
+  margin-left: -3px;
+
+}
+
+ol.breadcrumb {
+  margin-left: 33px;
+
+}
+
+div.row {
+  padding-left: 50px;
+
+}
+
+div.col-sm-6.col-md-5.col-lg-2-offset-3 {
+  margin-right: 50px;
+}
+
+
+
+
