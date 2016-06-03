@@ -1,0 +1,54 @@
+.row .col-sm-6, .row .col-md-3 {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.carousel-caption {
+  text-align: left;
+}
+
+.carousel-caption h1, h4 {
+  color:black;
+  font-family: sans-serif;
+  color: #333333;
+}
+
+.panel-body h3 {
+  text-align: center;
+  border: none;
+}
+
+.thumbnail {
+  border: none;
+}
+
+a:hover, a:active, a:link {
+  text-decoration: none;
+  color: black;
+}
+
+.caption {
+  text-align: center;
+}
+.panel-heading {
+  font-size: 22px;
+  background-color: #999999;
+}
+
+#right {
+  padding: 5px;
+  float: right;
+  display:inline-block;
+  text-align: right;
+}
+
+#left {
+  display: inline-block;
+}
+/*.col-md-2 {
+  border: 1px solid black;
+}*/
+
+ #icon {
+  height: 25px;
+ }

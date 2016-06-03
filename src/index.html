@@ -1,11 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <meta charset="UTF-8"><!-- Latest compiled and minified CSS -->
+  <link crossorigin="anonymous" href=
+  "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"
+  integrity=
+  "sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+  rel="stylesheet">
+  <link href=
+  "https://cdn0.iconfinder.com/data/icons/shift-free/32/Microsoft-128.png" rel=
+  "shortcut icon">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
+  <title>Microsoft - Official Home Page</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
 </head>
+
 <body>
-  <h1>Hello Front-End</h1>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button aria-expanded="false" class="navbar-toggle collapsed"
+        data-target="#bs-example-navbar-collapse-1" data-toggle="collapse"
+        type="button"><span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span> <span class="icon-bar"></span>
+        <span class="icon-bar"></span></button> <a class="navbar-brand" href=
+        "#"><img id="icon" src="https://assets.onestore.ms/cdnfiles/onestorerolling-1605-24001/shell/v3/images/logo/microsoft.png">
+        </a>
+      </div>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="#">Store <span class="sr-only">(current)</span></a>
+          </li>
+          <li>
+            <a href="#">Products</a>
+          </li>
+          <li class="dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class=
+            "dropdown-toggle" data-toggle="dropdown" href="#" role=
+            "button">Support <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+              <li class="divider" role="separator"></li>
+              <li>
+                <a href="#">Separated link</a>
+              </li>
+              <li class="divider" role="separator"></li>
+              <li>
+                <a href="#">One more separated link</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-left" role="search">
+          <div class="form-group">
+            <input class="form-control" placeholder="Search" type="text">
+          </div><button class="btn btn-default" type="submit">Submit</button>
+        </form>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#"><img src=
+            "https://arcc-acclaim.sdcounty.ca.gov/Content/Images/shopping_cart_icon.png"></a>
+          </li>
+          <li class="dropdown">
+            <a aria-expanded="false" aria-haspopup="true" class=
+            "dropdown-toggle" data-toggle="dropdown" href="#" role=
+            "button">Submit <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li>
+                <a href="#">Action</a>
+              </li>
+              <li>
+                <a href="#">Another action</a>
+              </li>
+              <li>
+                <a href="#">Something else here</a>
+              </li>
+              <li class="divider" role="separator"></li>
+              <li>
+                <a href="#">Separated link</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <div class="carousel slide" data-ride="carousel" id=
+  "carousel-example-generic">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="active" data-slide-to="0" data-target=
+      "#carousel-example-generic"></li>
+      <li data-slide-to="1" data-target="#carousel-example-generic"></li>
+    </ol><!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/REyrNo.jpg?version=becd8f05-67c3-bad6-a242-95943ca9a251">
+        <div class="carousel-caption">
+        <h3>Save up to $30 on Office, get the software you need to get things done*</h3>
+
+          <!--  Hard time getting the 'Learn More' and 'Shop Now' next to each other-->
+
+          <a href=""><h3>Shop Limited Time Offers  ></h3></a>
+        </div>
+
+      </div>
+      <div class="item">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/REvT6E.jpg?version=561099ec-c315-31d6-aead-d94a50aea941">
+<div class="carousel-caption">
+          <h3>Surface Pro 4 does more. Just like you.</h3>
+
+          <!--  Hard time getting the 'Learn More' and 'Shop Now' next to each other-->
+
+          <a href=""><h3>Learn More  ></h3></a>
+          <a href=""><h3>Shop Now ></h3></a>
+        </div>
+      </div>
+    </div><!-- Controls -->
+     <a class="left carousel-control" data-slide="prev" href=
+    "#carousel-example-generic" role="button">
+      <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+      </a><a class="right carousel-control" data-slide="next" href="#carousel-example-generic" role="button"><span aria-hidden=
+    "true" class="glyphicon glyphicon-chevron-right"></span> <span class=
+    "sr-only">Next</span></a>
+  </div>
+
+  <!-- First line of 4 pics -->
+  <div class="row">
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail"><a href="">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/OneCnsmr_WinPCsBlogger_0415_368x207_EN_US.jpg?version=1f781429-af15-e586-3f21-caeccdc2aea9">
+        <div class="caption">
+          <h3>Windows 10 PCs</h3>
+          <h5>See how Windows 10 changes the way Doyin works.</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail"><a href="">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/Xbox_LiveGold_1215_368x207_EN_US.jpg?version=41c70167-bb58-6113-09fd-e24d05ee251b">
+        <div class="caption">
+          <h3>Xbox Live Gold</h3>
+          <h5>Get the best online multiplayer for every Xbox console.</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail"><a href="">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/Win10_GA_1002_368x207_EN_US.jpg?version=0717536f-3b04-2530-f803-d2b757bad0f5"><div class="caption">
+          <h3>Windows 10 Free Upgrade*</h3>
+          <h5>Don't Wait! Upgrade before the offer expires before July 29,
+          2016.</h5></a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail"><a href="">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/Band_Bike_368x207_EN_US.jpg?version=e64034cb-9279-d5c6-077a-9544385cc6d4">
+        <div class="caption">
+          <h3>Microsoft Band</h3>
+          <h5>Make this your year to live healthier and achieve more.</h5></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="carousel slide" data-ride="carousel" id=
+  "carousel-example-generic">
+
+
+    <!-- Wrapper for slides -->
+    <!-- Definitely had a harder time getting the text in the right spot -->
+
+    <div class="carousel-inner" role="listbox">
+      <div class="item active"><img alt="..." src=
+      "https://c.s-microsoft.com/en-us/CMSImages/WinApps_SummerBG_0515_1920x480_EN_US.jpg?version=38073E5F-03FF-E2BB-D77F-44A94668FC2A">
+        <div class="carousel-caption">
+           <h1>Ready, Set, Summer!</h1>
+           <h4>Stock up on the Windows 10 apps, games, music, and movies you’ll need to kick the summer into high gear.</h4>
+
+          <!--Can't get hyperlink text to start as black -->
+
+           <a href=""><h3>Shop Now ></h3></a>
+        </div>
+    </div>
+<!-- Panel -->
+<div class="panel-default">
+  <div class="panel-body">
+    <h3>For Work</h3>
+  </div>
+</div>
+<!-- First line of 4 pics -->
+  <div class="row">
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <a href =""> <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/Ofc365_Enterprise_1201_368x207_EN_US.jpg?version=8fa74390-464c-9cdf-ffb0-73fbb0e70293">
+        <div class="caption">
+          <h3>New Office 365 for Enterprise</h3>
+          <h5>Learn more about all the capabilities now available.</h5>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/Win10_EntEval_0729_368x207_EN_US.jpg?version=6cb796f2-af1b-ee08-8b01-173a90f75fa4">
+        <div class="caption">
+          <h3>Windows 10 Enterprise</h3>
+          <h5>Download the free 90-day evaluation for IT professionals.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/CE_SQLServer2016_368x207.jpg?version=40f98a44-536b-c2e5-77ee-e85294143efc">
+        <div class="caption">
+          <h3>SQL Server</h3>
+          <h5>Faster, more secure, and now available. Try it for free.</h5>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6 col-md-3">
+      <div class="thumbnail">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/DYN_CRM_0101_368x207_EN_US.jpg?version=2b025bf1-9104-305d-8ff7-3a3c09b956fe">
+        <div class="caption">
+          <h3>Dynamic CRM Sales</h3>
+          <h5>Experience the new features.<br/>
+          Start your free trial.</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Lower Carousel -->
+  <div class="carousel slide" data-ride="carousel" id="carousel-example-generic">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li class="active" data-slide-to="0" data-target=
+      "#carousel-example-generic"></li>
+      <li data-slide-to="1" data-target="#carousel-example-generic"></li>
+    </ol><!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/REywZW.jpg?version=84700834-643e-3326-42ba-7b348b194e52">
+        <div class="carousel-caption">
+        <h3>Microsoft is creating affordable Internet in remote parts of the world</h3>
+
+          <!--  Hard time getting the 'Learn More' and 'Shop Now' next to each other-->
+
+          <a href=""><h3>Watch the video  ></h3></a>
+          <a href=""><h3>Learn more  ></h3></a>
+        </div>
+
+      </div>
+      <div class="item">
+        <img alt="..." src=
+        "https://c.s-microsoft.com/en-us/CMSImages/REzseq.jpg?version=ce5ecedb-beac-74b9-701a-28446f591f8a">
+<div class="carousel-caption">
+          <h3>SAM Labs makes it possible for anyone to build for the Internet of Things</h3>
+
+
+
+          <a href=""><h3>See How  ></h3></a>
+        </div>
+      </div>
+    </div><!-- Controls -->
+     <a class="left carousel-control" data-slide="prev" href=
+    "#carousel-example-generic" role="button">
+      <span aria-hidden="true" class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+      </a><a class="right carousel-control" data-slide="next" href="#carousel-example-generic" role="button"><span aria-hidden=
+    "true" class="glyphicon glyphicon-chevron-right"></span> <span class=
+    "sr-only">Next</span></a>
+  </div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">Follow Microsoft
+  <img src="https://c.s-microsoft.com/en-us/CMSImages/HPFeb15_social_Facebook.png?version=7f2bd528-7148-5a76-d124-92ede5ee71c5">
+  <img src="https://c.s-microsoft.com/en-us/CMSImages/HPFeb15_social_Twitter.png?version=6eb346b9-c834-c911-b448-1f01aa7d0201">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-2">
+    <h5>Learn</h5>
+      <h6>Windows</h6>
+      <h6>Office</h6>
+      <h6>Skype</h6>
+      <h6>Outlook</h6>
+      <h6>OneDrive</h6>
+      <h6>MSN</h6>
+  </div>
+    <div class="col-md-2">
+    <h5>Devices</h5>
+      <h6>Microsoft Surface</h6>
+      <h6>Xbox</h6>
+      <h6>PC and laptops</h6>
+      <h6>Microsoft Lumia</h6>
+      <h6>Microsoft Band</h6>
+      <h6>Microsoft HoloLens</h6>
+  </div>
+  <div class="col-md-2">
+   <h5>Microsoft Store</h5>
+      <h6>View Account</h6>
+      <h6>Order Tracking</h6>
+      <h6>Retail Store Locations</h6>
+      <h6>Returns</h6>
+      <h6>Sales and Support</h6>
+  </div>
+    <div class="col-md-2">
+    <h5>Downloads</h5>
+      <h6>Download Center</h6>
+      <h6>Windows Downloads</h6>
+      <h6>Windows 10 Apps</h6>
+      <h6>Office Apps</h6>
+      <h6>Microsoft Lumia Apps</h6>
+      <h6>Internet Explorer</h6>
+  </div>
+    <div class="col-md-2">
+    <h5>Values</h5>
+      <h6>Diversity and Inclusion</h6>
+      <h6>Accessibility</h6>
+      <h6>Environment</h6>
+      <h6>Microsoft Philanthropies</h6>
+      <h6>Corporate Social Responsibility</h6>
+      <h6>Privacy at Microsoft</h6>
+  </div>
+    <div class="col-md-2">
+    <h5>Company</h5>
+      <h6>Careers</h6>
+      <h6>About Microsoft</h6>
+      <h6>Company news</h6>
+      <h6>Investors</h6>
+      <h6>Site Map</h6>
+  </div>
+<!--Closing div for boostrap menu -->
+</div>
+<!-- Foooter -->
+<div class="panel panel-default">
+  <div class="panel-body">
+    <img src="http://getadvantagerealty.com/wp-content/themes/homeland/img/globe_icon80.png"><h6 id="left">
+    English (United States)
+    </h6>
+    <h6 id="right">Contact Us</h6>
+    <h6 id="right">Privacy & cookies</h6>
+    <h6 id="right">Terms of Use</h6>
+    <h6 id="right">Trademarks</h6>
+    <h6 id="right">About our ads</h6>
+    <h6 id="right"><img src="http://www.docsmo.com/wp-content/uploads/images-e1295062355709.jpeg"> 2016 Microsoft</h6>
+  </div>
+
+
+
+
+
+
+
+<!--Lower scripts -->
+
+      <script src="https://code.jquery.com/jquery-2.2.4.min.js">
+      </script> <!-- Latest compiled and minified JavaScript -->
+
+      <script src=
+      "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">
+      </script>
+      <script src="js/app.js" type="text/javascript">
+      </script>
+    </div>
+  </div>
 </body>
 </html>
