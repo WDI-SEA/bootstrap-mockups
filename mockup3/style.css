@@ -1,0 +1,53 @@
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 50px;
+	margin-right: 15px;
+}
+
+h3 {
+	font-family: 'Playfair Display', serif;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+body {
+	font-family: 'Lora', serif;
+	font-size: 14px;
+}
+
+.navbar-header {
+/*	float: right;*/
+	font-size: 18px;
+}
+
+#bs-example-navbar-collapse-1 {
+	float: right;
+}
+
+.media-body {
+	/*margin-right: 70px;*/
+}
+
+.row-5 {
+	/*margin-top: 20px;*/
+	padding-top: 10px;
+	padding-bottom: 20px;
+	font-size: 20px;
+	font-weight: bold;
+	font-family: 'Playfair Display', serif;
+}
+
+i {
+	display: inline;
+	margin-right: 10px;
+}
+
+/*.panel-body {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-right: none;
+	border-left: none;
+	font-size: 20px;
+	font-weight: bold;
+}*/
