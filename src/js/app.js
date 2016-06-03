@@ -1,6 +1,5 @@
 $(document).ready(function() {
 // Carosoul Buttons
-$(function () {
   $('#carousel-example-generic').carousel({
       interval:2000,
       pause: "false"
@@ -11,11 +10,4 @@ $(function () {
   $('#playButton').click(function () {
       $('#carousel-example-generic').carousel('cycle');
   });
-});
-
-
-
-
-
-
 });
