@@ -2,10 +2,9 @@ body {
   font-family: Arial,sans-serif !important
   background-color: white;
 }
-/*Layout: ERASE*/
-/*.row div {
-  border: 1px solid lightgray;
-}*/
+h3 {
+  font-size: 18px;
+}
 /*Header*/
 #microsoft-logo {
   width: 108px;
@@ -24,9 +23,11 @@ button {
 }
 #new-navbar {
   background-color: white;
+  border: none;
 }
 #new-nav {
   display: inline;
+  /*background-color: white;*/
 }
 #new-form {
   border: none;
@@ -69,7 +70,9 @@ button {
   height: 480px;
 }
 .shop-talk {
-  margin: 10px 350px 10px 50px;
+  /*margin: 10px 350px 10px 50px;*/
+  max-width: 550px;
+  margin: 10px auto 10px 50px;
   padding-top: 100px;
   line-height: 30px;
 }
@@ -79,23 +82,25 @@ button {
 /*Footer*/
 .footer {
   background-color: #F5F5F5;
-  color: #BDBDBD;
+  color:#9e9e9e;
 }
 .footer-header{
-  background-color: #9E9E9E;
+  background-color: #BDBDBD;
 }
 .footer-header h3 {
-  color:#616161;
+  color:#424242;
+  margin-left: 60px;
 }
 .footer-menu ul {
-  line-height: 16px;
+  line-height: 24px;
+  padding-top: 20px;
 }
 .footer-menu li {
   list-style: none;
-  font-size: 12px;
-  font-family: tahoma;
+  font-size: 11px;
+  font-family: helvetica;
 }
 .footer-menu ul :first-child {
-  font-size: 13px;
+  font-size: 14px;
   padding-bottom: 5px;
 }
