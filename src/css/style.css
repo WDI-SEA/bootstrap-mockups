@@ -42,6 +42,9 @@ a:hover, a:active, a:link {
   text-align: right;
 }
 
+#left {
+  display: inline-block;
+}
 /*.col-md-2 {
   border: 1px solid black;
 }*/
