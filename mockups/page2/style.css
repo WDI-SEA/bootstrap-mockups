@@ -1,0 +1,40 @@
+.container-fluid {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+hr {
+	border: solid lightgray 2px;
+	margin-bottom: 40px;
+}
+
+#get_in_touch {
+	padding-bottom: 25px;
+}
+
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#breadcrumb {
+	background-color: white;
+}
+
+.nameplate {
+	border: solid black 1px;
+	padding: 5%;
+}
+
+.faceplate {
+	margin-bottom: 20px;
+}
+
+#staff_title {
+	margin-bottom: 25px;
+	margin-left: 2%;
+}
+
+#staff {
+	margin-bottom:50px;
+}

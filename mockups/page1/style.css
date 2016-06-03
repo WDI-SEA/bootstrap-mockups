@@ -1,0 +1,21 @@
+.container-fluid {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+hr {
+	border: solid lightgray 2px;
+}
+
+#get_in_touch {
+	padding-bottom: 25px;
+}
+
+.no-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+#breadcrumb {
+	background-color: white;
+}
