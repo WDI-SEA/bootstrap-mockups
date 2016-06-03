@@ -1,0 +1,106 @@
+body {
+  font-family: Arial,sans-serif !important
+  background-color: white;
+}
+h3 {
+  font-size: 18px;
+}
+/*Header*/
+#microsoft-logo {
+  width: 108px;
+}
+button {
+  font-size: 12px;
+  padding: 0;
+}
+.new-dropdown-li {
+  background-color: #E0E0E0;
+  padding: 17px 24px;
+  color: gray;
+}
+.new-link {
+  font-size: 86%;
+}
+#new-navbar {
+  background-color: white;
+  border: none;
+}
+#new-nav {
+  display: inline;
+  /*background-color: white;*/
+}
+#new-form {
+  border: none;
+  border-radius: 0%;
+}
+#new-form-input {
+  border: none;
+  padding-right: 30px;
+}
+/*Carousel Buttons*/
+.carousel-caption {
+  font-size: 20px;
+}
+#pauseButton {
+  background-color: gray;
+  color: white;
+  padding: 1px 15px;
+  border-radius: none;
+  font-weight: none;
+  margin-top: 10px;
+}
+#playButton {
+  background-color: white;
+  color: gray;
+  padding: 1px 15px;
+  border-radius: none;
+  font-weight: none;
+  margin-top: 10px;
+}
+
+/*Four Pictures Row*/
+.new-fourpack {
+  padding-top: 20px;
+  margin: auto;
+}
+/*Shop Block*/
+.shop {
+  background-image: url("https://c.s-microsoft.com/en-us/CMSImages/WinApps_SummerBG_0515_1920x480_EN_US.jpg?version=38073E5F-03FF-E2BB-D77F-44A94668FC2A");
+  background-position: center;
+  height: 480px;
+}
+.shop-talk {
+  /*margin: 10px 350px 10px 50px;*/
+  max-width: 550px;
+  margin: 10px auto 10px 50px;
+  padding-top: 100px;
+  line-height: 30px;
+}
+.shop-talk-p {
+    font-size: 18px;
+}
+/*Footer*/
+.footer {
+  background-color: #F5F5F5;
+  color:#9e9e9e;
+}
+.footer-header{
+  background-color: #BDBDBD;
+}
+.footer-header h3 {
+  color:#424242;
+  margin-left: 60px;
+}
+.footer-menu ul {
+  line-height: 24px;
+  padding-top: 20px;
+}
+.footer-menu li {
+  list-style: none;
+  font-size: 11px;
+  font-family: helvetica;
+}
+.footer-menu ul :first-child {
+  font-size: 14px;
+  padding-bottom: 5px;
+}
