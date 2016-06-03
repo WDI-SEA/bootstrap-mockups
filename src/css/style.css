@@ -48,3 +48,7 @@ a:hover, a:active, a:link {
 /*.col-md-2 {
   border: 1px solid black;
 }*/
+
+ #icon {
+  height: 25px;
+ }
