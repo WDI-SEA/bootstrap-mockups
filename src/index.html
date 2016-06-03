@@ -3,9 +3,91 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
   <title>Hello Front-End</title>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class="container-fluid">
+    <!-- Nav Bar -->
+    <div id="navBar" class="row flex">
+      <div class="col-sm-1"><img src="https://assets.onestore.ms/cdnfiles/onestorerolling-1605-24001/shell/v3/images/logo/microsoft.png"></div>
+      <div class="col-sm-1 col-sm-offset-2">Store</div>
+      <div class="col-sm-1">Products</div>
+      <div class="col-sm-1">Support</div>
+      <div class="col-sm-2">
+        <form>
+          <input id="searchBar" type="text" placeholder="Search Microsoft.com">
+        </form>
+      </div>
+      <div class="col-sm-1 col-sm-offset-2">Shopping cart icon</div>
+      <div id="signIn" class="col-sm-1 text-right justify-right">Sign in</div>
+    </div>
+    <!-- Two-image slideshow -->
+    <div class="row">
+      <img src="https://c.s-microsoft.com/en-us/CMSImages/REvT6E.jpg?version=561099ec-c315-31d6-aead-d94a50aea941" class="img-responsive">
+    </div>
+    <!-- Banner below slideshow -->
+    <div class="row text-center">
+      <h2>Save up to $30 on Office, get the software you need to get things done*</h2>
+      <h4>Shop limited time offers ></h4>
+    </div>
+    <!-- Quartet of images/products/services -->
+    <div id="quartet" class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/OneCnsmr_WinPCsBlogger_0415_368x207_EN_US.jpg?version=1f781429-af15-e586-3f21-caeccdc2aea9" class="img-responsive">
+      <p class="text-center he3">Windows 10 PCs</p>
+      <p class="text-center">See how Windows 10 changes the way Doyin works.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/Xbox_TheDivision_0315_368x207_EN_US.jpg?version=26fcde80-b995-1bed-ebf2-832bd6304c61" class="img-responsive">
+      <p class="text-center he3">Tom Clancy's The Division</p>
+      <p class="text-center">1TB Xbox One bundle is now available. Buy now.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/Win10_GA_1002_368x207_EN_US.jpg?version=0717536f-3b04-2530-f803-d2b757bad0f5" class="img-responsive">
+      <p class="text-center he3">Windows 10 free upgrade*</p>
+      <p class="text-center">Don't wait! Upgrade before the offer expires July 29, 2016!</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/Band_Bike_368x207_EN_US.jpg?version=e64034cb-9279-d5c6-077a-9544385cc6d4" class="img-responsive">
+      <p class="text-center he3">Microsoft Band</p>
+      <p class="text-center">Make this your year to live healthier and achieve more.</p>
+      </div>
+    </div>
+    <div class="row slide" style="background-position: center; background-image: url(&quot;https://c.s-microsoft.com/en-us/CMSImages/WinApps_SummerBG_0515_1920x480_EN_US.jpg?version=38073E5F-03FF-E2BB-D77F-44A94668FC2A&quot;)">
+      <div id="readySetSummerText" class="col-md-4 col-sm-8">
+        <p class="he3">Ready, Set, Summer!</p>
+        <p>Stock up on the Windows 10 apps, games, music and movies you'll need to kick the summer into high gear.</p>
+        <p><strong>Shop now ></strong></p>
+      </div>
+    </div>
+    <div id="forWork" class="text-center he3"><p>For work</p></div>
+    <div id="quartet2" class="row">
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/Ofc365_Enterprise_1201_368x207_EN_US.jpg?version=8fa74390-464c-9cdf-ffb0-73fbb0e70293" class="img-responsive">
+      <p class="text-center he3">New Office 365 for Enterprise</p>
+      <p class="text-center">Learn more about all the capabilities now available.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/Win10_EntEval_0729_368x207_EN_US.jpg?version=6cb796f2-af1b-ee08-8b01-173a90f75fa4" class="img-responsive">
+      <p class="text-center he3">Windows 10 Enterprise</p>
+      <p class="text-center">Download the free 90-day evaluation for IT professionals.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/CE_SQLServer2016_368x207.jpg?version=40f98a44-536b-c2e5-77ee-e85294143efc" class="img-responsive">
+      <p class="text-center he3">SQL Server 2016</p>
+      <p class="text-center">Faster, more secure, and now available. Try it free.</p>
+      </div>
+      <div class="col-md-3 col-sm-6 col-xs-12"><img src="https://c.s-microsoft.com/en-us/CMSImages/DYN_CRM_0101_368x207_EN_US.jpg?version=2b025bf1-9104-305d-8ff7-3a3c09b956fe" class="img-responsive">
+      <p class="text-center he3">Dynamic CRM sales</p>
+      <p class="text-center">Experience the new features. Start your free trial.</p>
+      </div>
+    </div>
+    <div id="lastPicture" class="row">
+      <img src="https://c.s-microsoft.com/en-us/CMSImages/REzseq.jpg?version=ce5ecedb-beac-74b9-701a-28446f591f8a" class="img-responsive" alt="Last picture!">"
+    </div>
+    <div  class="text-center he2"><p id="lastBlurb">SAM Labs makes it possible for anyone to build for the Internet of Things</p>
+    <h4>See how ></h4>
+    </div>
+  </div>
+
+  <!-- Code above this line, bruh -->
+  <script   src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>

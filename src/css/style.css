@@ -1,0 +1,69 @@
+h1 {
+  color: red;
+}
+
+/*div {
+  border: 1px solid black;
+}*/
+
+#navBar {
+  /*border: 1px solid black;*/
+  width: 100%;
+  display: flex;
+}
+
+h4 {
+  color: blue;
+}
+
+#quartet {
+  /*border: 1px solid black;*/
+  margin-top: 30px;
+}
+
+#searchBar {
+  width: 280px;
+}
+
+.slide {
+  height: 400px;
+  width: 100%;
+}
+
+.he3 {
+  font-size: 20px;
+}
+
+.he2 {
+  font-size: 30px;
+}
+
+.slide {
+  display: flex;
+}
+
+#readySetSummerText {
+  /*margin: 0 auto;*/
+  /*justify-content: center;*/
+  width: 66%;
+  align-items: center;
+  padding-top: 120px;
+}
+
+#quartet2 {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+#forWork {
+  padding-top: 40px;
+}
+
+#lastBlurb {
+  margin: auto;
+ padding: 30px;
+}
+
+#signIn {
+  justify-content: flex-start;
+}
