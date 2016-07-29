@@ -1,0 +1,37 @@
+.col-xl-14{
+  
+}
+
+.cyanBG{
+  background-color: cyan;
+}
+
+.magentaBG{
+  background-color: magenta;
+}
+
+.yellowBG{
+  background-color: yellow;
+}
+
+.keyBG{
+  background-color: black;
+  color: white;
+}
+
+.whiteBG{
+  background-color: white;
+}
+
+.menuBar{
+  height: 100px;
+  background-color: rgb(200, 200, 200);
+}
+
+.menuButton{
+
+}
+
+img{
+  width: 100%;
+}
