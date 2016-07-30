@@ -1,0 +1,271 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>CSS Practice</title>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- JQUERY -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+<style>
+  .container {
+    background-color: cyan;
+  }
+  .box {
+    width:100%;
+    min-height: 50px;
+    border: 1px solid black;
+  }
+
+</style>
+
+</head>
+
+
+
+
+<body>
+
+
+<div class="container">
+Welcome to BOOTSTRAP 3
+  <div class="row">
+    <div class="col-md-6">
+    <div class="box">
+
+    COL-MD-6 1st
+
+    </div>
+    </div>
+    <div class="col-md-6">
+      <div class="box">
+
+    COL-MD-6 2nd
+  
+    </div>
+  </div>
+</div>
+
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="box">
+
+      COL-MD-8
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="row">
+    <div class="col-md-6 col-md-4">
+      <div class="box">
+
+      Box 1
+
+      </div>
+    </div>
+  </div>
+
+ <div class="row">
+    <div class="col-md-6 col-md-4">
+      <div class="box">
+
+      Box 2
+
+      </div>
+    </div>
+  </div>
+
+ <div class="row">
+    <div class="col-md-6">
+      <div class="row">
+      <div class="col-md-4">
+
+      Nested Row Col-MD-4
+
+      </div>
+
+      <div class="col-md-8">
+
+      COl-md-8
+      </div>
+      Tag 1
+    </div>
+    Tag 2
+  </div>
+
+  OUTSIDE NEST 1
+  </div>
+  OUTSIDE NEST 2
+  </div>
+  OUTSIDE CONTAINER
+
+
+</div>
+
+<div>Break Div</div>
+<div>Break Div</div>
+
+<!-- 
+
+<p class="text-left"> This text is left aligned </p>
+<p class="text-center"> This text is center aligned </p>
+<p class="text-right"> This text is right aligned </p>
+<p class="text-justified"> This text is justified </p>
+<p class="text-nowrap"> This text is no wrap Lorem ipsum dolor sit amet, 
+consectetur adipisicing elit, sed do eiusmod
+tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+  
+<h2>More text/typeography stuff </h2>
+
+<small> This is fine print, legalese </small>
+
+<p class="text-lowercase"> THESE MIXED texts will turn LOWERCASE </p>
+<p class="text-uppercase"> THESE MIXED texts will turn UPPERCASE </p>
+<p class="text-capitalize"> THESE MIXED texts will have FIRST LETTERS capitalized
+unless the WHOLE WORD is already ALL CAPS </p>
+
+
+<h2> GLYPHICONS </h2> 
+
+<span class="glyphicon glyphicon-search"></span>
+
+-->
+
+
+<h2> LISTS </h2>
+
+<ul class="list-unstyled">
+  <li>I have no list style</li>
+  <li>Me neither </li>
+</ul>
+
+<ul class="list-inline">
+  <li>About</li>
+  <li>Pricing</li>
+  <li>More info</li>
+  <li>contact</li>
+</ul>
+
+<!-- 
+<table class="table table-bordered table-striped">
+  <thead> Head 
+    <tr>  Head TR
+      <th>TH Name</th>
+      <th>TH Drink Order </th>
+    </tr>
+  </thead>
+
+  <tbody> Body </tbody>
+    <tr>
+      <th>Brandi</th>
+      <th>Mocha Coffee</th>
+    </tr>
+
+    <tr>
+      <th>Chris</th>
+      <th>Manhattan</th>
+    </tr>
+
+    <tr>
+      <th>Kemal</th>
+      <th>Water</th>
+    </tr>
+
+</table>
+ -->
+
+
+
+<h2> BUTTONS </h2>
+
+<input type="button" value="click XS" class="btn btn-xs">
+<input type="button" value="click SM" class="btn btn-sm">
+<input type="button" value="click MD" class="btn btn-md">
+<input type="button" value="click LG" class="btn btn-lg">
+<input type="button" value="click default" class="btn">
+
+
+<h3> Buttons with colors/purpose </h3>
+
+<input type="button" value="Default" class="btn btn-default">
+<input type="button" value="info" class="btn btn-info">
+<input type="button" value="primary" class="btn btn-primary">
+<input type="button" value="success" class="btn btn-success">
+<input type="button" value="warning" class="btn btn-warning">
+<input type="button" value="Danger" class="btn btn-danger">
+
+
+
+<h3> image alteration </h3>
+
+<img src="image source" class="img-rounded">
+<img src="image source" class="img-circle">
+<img src="image source" class="img-thumbnail">
+<img src="image source" class="img-responsive">
+
+
+<h2> forms </h2>
+
+<form>
+  <div class="form-group">
+    <label for="emailInput">Email Here: </label>
+    <input type="email" id="emailInput" name="emailBox" class="form-control" placeholder="Type your email here">
+  </div>
+
+  <div class="form-group">
+    <label for="passwordInput"> Password here: </label>
+    <input type="password" id="passwordInput" class="form-control">
+  </div>
+
+  <div class="checkbox">
+    <label>
+    <input type="checkbox"> Checkbox
+    </label>
+  </div>
+
+
+  <input type="submit" class="btn btn-success btn-sm">
+</form>
+
+
+
+<h2> Tooltips </h2>
+
+  <a href="#" data-toggle="tooltip" title="I see this">
+  HOVER OVER ME
+  </a>
+
+
+
+
+
+
+  <script>
+  $(document).ready(function() {
+    $('[data-toggle="tooltip"]')
+  });
+  </script>
+
+</body>
+
+</html>
+
+
