@@ -1,0 +1,39 @@
+table {
+  width: 100% auto;
+}
+#rowDescription {
+  font-size: 20px;
+  font-family: verdana;
+}
+#rowHeading {
+  font-size: 28px;
+  font-family: verdana;
+}
+li {
+  font-size: 16px;
+}
+#topNav {
+  justify-content: center;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
+}
+.follow {
+  font-size: 20px;
+  background-color: lightgrey;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 60px;
+}
+.listTop{
+  font-size: 22px;
+}
+.list-unstyled {
+  color: grey;
+}
+#footer {
+  float: right;
+  color:grey;
+}
