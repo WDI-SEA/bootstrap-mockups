@@ -1,0 +1,61 @@
+body{
+  color:grey;
+  font-family:sans-serif;
+  font-weight: 100px;
+}
+#header-shell{
+  width:834px;
+  margin: 0 auto;
+  height:123px;
+  display: inline;
+}
+#microsoft-logo{
+  width:108px;
+  height:23px;
+}
+#store{
+  width:92px;
+  height:48px;
+}
+#products{
+  width:115px;
+  height:48px;
+} 
+#support{
+  width:98px;
+  height:48px;
+}
+#search{
+  width:600px;
+  height:30px;
+  font-size:18px;
+}
+.icon{
+  color:darkgrey;
+  background-color: white;
+  text-decoration-color: none;
+  text-decoration: none;
+}
+a:link, visited, active{
+  text-decoration: none;
+}
+a:hover{
+  color:blue;
+  background-color:lightgrey;
+  text-decoration: none;
+}
+#shopcart{
+  height:21px;
+  width:21px;
+}
+.clearfix{
+  clear:both;
+}
+li{
+  text-decoration: none;
+  list-style-type: none;
+}
+#officeformac{
+height:207px;
+width:368px;
+}
