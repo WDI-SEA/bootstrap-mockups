@@ -1,11 +1,271 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <!-- jQuery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <!-- Noto Sans is the most similar font to Segoe UI -->
+  <link href='https://fonts.googleapis.com/css?family=Noto+Sans' rel='stylesheet' type='text/css'>
+  <!--- My CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <title>Microsoft - Unoffical Home Page</title>
 </head>
+
 <body>
-  <h1>Hello Front-End</h1>
+
+<!-- Navigation bar -->
+
+
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src='img/microsoft.png' style='height: 23px; width: 108px;'></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+      <ul class="nav navbar-nav">
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Store <span class="caret"></span></a>
+        </li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"></span></a>
+        </li>
+        <li><a href="#">Support</a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+        <li><input type="text" class="form-control" placeholder="Search Microsoft.com"><!-- <span class='glyphicon glyphicon-search'></span> --></li>
+        <li><a href="#">
+          0 <span class='glyphicon glyphicon-shopping-cart'></span>
+        </a></li>
+        <li><a href="#">Sign in</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<!-- First Jumbotron -->
+<div class='row'>
+  <div class='jumbotron' id='first-jumbotron'>
+      <div class='container'>
+      <h3>Limited time offer: Get $100 off select Dell XPS 13 PCs*</h3>
+      <ul class='list-unstyled list-inline'>
+        <li>Learn More<span class="caret"></span></li>
+        <li>Shop Now<span class="caret"></span></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- First four-item column -->
+<div class='container'>
+  <div class='row'>
+    <div class='col-md-3 grid'>
+      <img src="img/office.jpg" alt='Office for Mac'>
+      <h3>Office for Mac</h3>
+      <p>The familiarity of Office with the Mac features you love.</p>
+    </div>
+
+    <div class='col-md-3 grid'>
+      <img src="img/xbox.jpg" alt='Xbox One S'>
+      <h3>Xbox One S</h3>
+      <p>Sleeker, slimmer, sharper. Pre-order now.</p>
+    </div>
+
+    <div class='col-md-3 grid'>
+      <img src="img/band.jpg" alt='Microsoft Band'>
+      <h3>Microsoft Band</h3>
+      <p>Stay connected with email, text, and calendar alerts.</p>
+    </div>
+
+    <div class='col-md-3 grid'>
+      <img src="img/msstore.jpg" alt='Microsoft Store'>
+      <h3>Microsoft Store</h3>
+      <p>Discover, achieve, and create with best-in-class technology.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Second jumbotron -->
+<div class='row'>
+  <div class='jumbotron' id='second-jumbotron'>
+    <div class='container'>
+      <h3>Best of Windows Store</h3>
+      <p>Explore a select group of outstanding apps, games, videos, and music.</p>
+      <p><strong>Learn more <span class='glyphicon glyphicon-menu-right'></span></strong></p>
+    </div>
+  </div>
+</div>
+
+
+<!-- Second four-item column -->
+<div class='container'>
+  <div class='row'>
+    <div class='col-md-3 grid'>
+      <img src="img/visualstudio.jpg" alt='Visual Studio 2015'>
+      <h3>Visual Studio 2015</h3>
+    <p>Create the next great app with our new free dev guide.</p>
+    </div>
+
+    <div class='col-md-3 grid'>
+      <img src="img/officeenterprise.jpg" alt='New Office 365 for Enterprise'>
+      <h3>New Office 365 for Enterprise</h3>
+      <p>Learn more about all the capabilities now available.</p>
+    </div>
+
+    <div class='col-md-3 grid'>
+      <img src="img/windows10.jpg" alt='Windows 10 Enterprise'>
+      <h3>Windows 10 Enterprise</h3>
+      <p>Download the free 90-day evaluation for IT professionals.</p>
+    </div>
+
+    <div class='col-md-3 grid'>
+    <img src="img/cloud.jpg" alt='Microsoft Cloud'>
+    <h3>Microsoft Cloud</h3>
+    <p>The cloud helps a global nonprofit improve healthcare.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Third Jumbotron -->
+<div class='jumbotron' id='third-jumbotron'>
+  <div class='container'>
+    <h3>Last year's Imagine Cup winners are making a difference today</h3>
+    <p>See what they are doing now  <span class='glyphicon glyphicon-menu-right'></span></p>
+  </div>
+</div>
+
+
+<!-- Social links -->
+<div class='social-links'>
+  <div class='container'>
+    <div class='row'>
+      <ul class='list-inline'>
+      <li>Follow Microsoft</li>
+      <li><img src="img/facebook.png" alt='Facebook'></li>
+      <li><img src="img/twitter.png" alt='Twitter'></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!-- footer -->
+<div class='footer'>
+  <div class='container'>
+    <small>
+
+      <div class='row'>
+        <div class='col-md-2'>
+          <ul class='list-unstyled'>
+            <li><strong>Learn</strong></li>
+            <li>Windows</li>
+            <li>Office</li>
+            <li>Skype</li>
+            <li>Outlook</li>
+            <li>OneDrive</li>
+            <li>MSN</li>
+          </ul>
+          </div>
+
+        <div class='col-md-2'>
+          <ul class='list-unstyled'>
+            <li><strong>Devices</strong></li>
+            <li>Microsoft Surface</li>
+            <li>Xbox</li>
+            <li>PC and laptops</li>
+            <li>Microsoft Lumia</li>
+            <li>Microsoft Band</li>
+            <li>Microsoft HoloLens</li>
+          </ul>
+        </div>
+
+        <div class='col-md-2'>
+          <ul class='list-unstyled'>
+            <li><strong>Microsoft Store</strong></li>
+            <li>View account</li>
+            <li>Order tracking</li>
+            <li>Retail store locations</li>
+            <li>Returns</li>
+            <li>Sales and support</li>
+          </ul>
+        </div>
+
+        <div class='col-md-2'>
+          <ul class='list-unstyled'>
+            <li><strong>Downloads</strong></li>
+            <li>Download Center</li>
+            <li>Windows downloads</li>
+            <li>Windows 10 Apps</li>
+            <li>Office Apps</li>
+            <li>Microsoft Lumia Apps</li>
+            <li>Internet Explorer</li>
+          </ul>
+        </div>
+
+        <div class='col-md-2'>
+          <ul class='list-unstyled'>
+            <li><strong>Values</strong></li>
+            <li>Diversity and inclusion</li>
+            <li>Accessibility</li>
+            <li>Environment</li>
+            <li>Microsoft Philanthropies</li>
+            <li>Corporate Social Responsibility</li>
+            <li>Privacy at Microsoft</li>
+          </ul>
+        </div>
+
+        <div class='col-md-2'>
+          <ul class='list-unstyled'>
+            <li><strong>Company</strong></li>
+            <li>Careers</li>
+            <li>About Microsoft</li>
+            <li>Company news</li>
+            <li>Investors</li>
+            <li>Research</li>
+            <li>Site map</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class='pull-left'>
+      <span class='glyphicon glyphicon-globe' style='font-size: 24px'></span>
+         English (United States)‎
+      </div>
+
+      <ul class='list-inline pull-right'>
+        <li>Contact us</li>
+        <li>Privacy and cookies</li>
+        <li>Terms of use</li>
+        <li>Trademarks</li>
+        <li>About our ads</li>
+        <li>&copy; 2016 Microsoft</li>
+      </ul>
+
+    </small>
+  </div>
+</div>
+
+
+
+
+
+
 </body>
 </html>
