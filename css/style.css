@@ -1,52 +1,16 @@
+div{
+		border: 1px solid black;
+}
 .container{
 	border: 1px solid black;
 	width: 100%;
 }		
-h2{\
+h2{
 	text-align: center;
 }
 #midLine{
 	background: #74CCCD;
-}
-#box1{
-	padding: 20px;
-	height: 200px;
-	background: url("http://www.placecage.com/gif/351/202");
-}
-#box2{
-	padding: 20px;
-	height: 200px;
-	background: url("http://www.placecage.com/gif/350/201");
-}
-#box3{
-	padding: 20px;
-	height: 200px;
-	background: url("http://www.placecage.com/gif/350/202");
-}
-#box4{
-	padding: 20px;
-	height: 200px;
-	background: url("http://www.placecage.com/gif/351/200");
-}
-#box5{
-	padding: 20px;
-	height: 200px;
-	background: url("http://www.placecage.com/gif/349/199");
-}
-#box6{
-	padding: 20px;
-	height: 200px;
-	background: url(http://www.placecage.com/gif/349/202);
-}
-#box7{
-	padding: 20px;
-	height: 200px;
-	background: url("http://www.placecage.com/gif/349/200");
-}
-#box8{
-	padding: 20px;
-	height: 200px;
-	background: url("http://www.placecage.com/gif/351/199");
+	display: inline-block;
 }
 .fill{
 	border: 1px solid black;
