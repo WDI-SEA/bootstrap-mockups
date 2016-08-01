@@ -1,0 +1,54 @@
+.margin-0{
+  margin: 0 0 0 -100px;
+}
+
+.sm-img-margin{
+  margin:110px 0 50px;
+}
+
+.grey{
+  background-color: grey;
+  height: 30px;
+  width: 1300px;
+  margin: 0 0 0 -85px
+}
+.sm-img-margin-2{
+  margin:30px 0 50px;
+}
+
+.logo-img{
+  width: 108px;
+  height: 23px;
+}
+
+.header-margin{
+  margin-top: 15px;
+}
+
+.menu-link{
+  padding: 0 22.5px;
+  width: 90px;
+}
+
+.padding-0{
+ 
+  padding-right: 0;
+  padding-left: 22.5px;
+}
+body{
+  font-family: arial, helvetica, sans-serif;
+}
+
+input[type="text"] {
+    width: 200px;
+    border: solid 1px black;
+    border-radius: 0;
+}
+
+a{
+  color: rgb(0 0 0) !important;
+}
+
+.i{
+  padding-left: 40px;
+}
