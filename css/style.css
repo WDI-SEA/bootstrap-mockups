@@ -1,18 +1,13 @@
-div{
-		border: 1px solid black;
-}
+
 .container{
-	border: 1px solid black;
 	width: 100%;
 }		
 h2{
 	text-align: center;
 }
 #midLine{
-	background: #74CCCD;
 	display: inline-block;
 }
-.fill{
-	border: 1px solid black;
-
+#fillBottom{
+	background: gray;
 }
