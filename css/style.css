@@ -35,6 +35,11 @@
   padding-right: 0;
   padding-left: 22.5px;
 }
+
+.i{
+  padding-left: 40px;
+}
+
 body{
   font-family: arial, helvetica, sans-serif;
 }
@@ -46,9 +51,17 @@ input[type="text"] {
 }
 
 a{
-  color: rgb(0 0 0) !important;
+  color: rgba(0, 0, 0, 0.8);
 }
 
-.i{
-  padding-left: 40px;
+h1{
+  color: rgba(0, 0, 0, 0.8);
+}
+
+ul{
+  list-style-type: none;
+}
+
+li{
+  padding: 3px 0;
 }
