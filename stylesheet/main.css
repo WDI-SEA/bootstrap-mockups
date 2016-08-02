@@ -1,0 +1,133 @@
+
+
+.img-responsive{
+  width: 100%;
+  height: 350px;
+}
+.carousel-inner{
+  height: 600px;
+}
+nav{
+padding-top: 15px;
+}
+
+ul{
+text-decoration-style: none;
+}
+
+li{
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.push-left{
+  width: 50%;
+  float: left;
+  
+}
+
+.push-right{
+  width: 25%;
+  float: right;
+  
+}
+
+.container{
+  text-align: center;
+}
+
+h3{
+  padding-bottom: 15px;
+}
+
+.div-pic{
+  margin-top: 40px;
+}
+ h2{
+  padding-bottom: 15px;
+ }
+
+ p{
+  padding-bottom: 20px;
+ }
+
+ .box{
+  width: 500px;
+  color: white;
+  position: relative;
+  left: 200px;
+  top: 130px;
+  
+
+ }
+
+ .box1{
+  text-align: center;
+  width: 200px;
+  height: 230px;
+  padding-top: 10px;
+
+ }
+
+ h1{
+  font-weight: bold;
+  font-size: 16px;
+ }
+
+.banner{
+  background-color: #DEDEDE;
+
+}
+
+img{
+  padding: 5px;
+}
+.push-right-play-pause{
+  float: right;
+  padding-top: 9px;
+  padding-right: 10px;
+}
+.color{
+  background-color: ;
+  
+  height: 50px;
+}
+
+.footer-link{
+  height: 250px;
+ 
+  
+}
+
+.snow-house{
+  background-image: url(http://www.planwallpaper.com/static/images/recycled_texture_background_by_sandeep_m-d6aeau9_PZ9chud.jpg);
+  height: 480px;
+}
+
+.move-left{
+  width: 30%;
+  float: left;
+
+}
+
+.move-right{
+  width: 50%;
+  float: right;
+  margin-top: 10px;
+
+}
+
+.space-link{
+  margin-bottom: 10px;
+}
+
+.nav-test{
+  
+  height: 60px;
+}
+
+
+
+
+
+

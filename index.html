@@ -1,11 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
-</head>
-<body>
-  <h1>Hello Front-End</h1>
-</body>
-</html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+   <!-- css-link -->
+   <link rel="stylesheet" href="stylesheet/main.css">
+
+   <!-- Latest compiled and minified CSS -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+   <!-- Optional theme -->
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      
+   <!-- jquery-link -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      
+   <!-- javascript link    -->
+   <script type='text/javascript' src='javascript/main.js' ></script>
+
+   <!-- Latest compiled and minified JavaScript -->
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous">
+   </script>
+
+
+  </head>
+    <!-- neck -->
+  <body>
+                <!-- nav -->
+          <nav class='nav-test'>
+            <ul class="push-left">
+              <li> <a href="#"> <img src="image/microsoft-logo.gif" alt="icon"> </a> </li>
+              <li id='drop'> <a href="#">Store</a> </li>
+              <li> <a href="#">Product</a> </li>
+              <li> <a href="#">Support</a> </li>
+            </ul>
+
+            <ul class='push-right'>
+              <li> <input class='icon-bar search-icon' type="text" placeholder='Microsoft.com'> </li>
+              <li> <a href="#"> <img src="image/cart-logo.gif" alt="cart"> </a> </li>
+              <li>Sign in</li>
+            </ul>
+          </nav>
+              
+         
+            
+                <!-- main image carousel -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+          </ol>
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img class='img-responsive' src="image/travel.jpg" alt="cs">
+              <div class="carousel-caption">
+                1280 by 720
+              </div>
+            </div>
+            <div class="item">
+              <img class='img-responsive' src="image/travel1.jpg" alt="cs1">
+              <div class="carousel-caption">
+                1280 by 720
+              </div>
+            </div>
+            
+            <div class="item">
+              <img class='img-responsive' src="image/travel2.jpg" alt="cs1">
+              <div class="carousel-caption">
+                1280 by 720
+              </div>
+            </div>
+          </div>
+
+          <!-- Controls test-->
+          <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+
+        <!-- div four images and text below -->
+        <div class='container'>
+            <div class='row'>
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/old-car.jpg" alt="old-car"> </a>
+                  <h3>Steering Wheel</h3>
+                  <p>Collaboratively administrate empowered markets via plug-and-play networks. </p>
+              </div>
+              
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/camp.jpg" alt="camp"> </a>
+                  <h3>Sun Set</h3>
+                  <p>Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+              </div>
+
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/golden-gate.jpg" alt="golden-gate"> </a>
+                  <h3>Bridge</h3>
+                  <p>Efficiently unleash cross-media information without cross-media value. </p>
+              </div>
+
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/vans.jpg" alt="vans"> </a>
+                  <h3>Red Road</h3>
+                  <p>Quickly maximize timely deliverables for real-time schemas. </p>
+              </div>
+            </div>
+        </div>
+
+        <!-- div slider -->
+        <div class='snow-house'>
+          <div class='box'>
+            <h2>Snow House Experience</h2>
+            <p class=>Learn The Nature of The Wilderness</p>
+            <a  href='www.esperas.org'> Learn more </a>
+            <img  src="image/reddit.gif" alt="reddit">
+          </div>
+        </div>
+
+        <!-- div four images and text below -->
+        <div class='container'>
+            <div class='row'>
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/flash-light.jpg" alt="flash-light"> </a>
+                  <h3>Flash Light</h3>
+                  <p>Collaboratively administrate empowered markets via plug-and-play networks. </p>
+              </div>
+              
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/cool-bridge.jpg" alt="cool-bridge"> </a>
+                  <h3>Cool Bride</h3>
+                  <p>Dramatically visualize customer directed convergence without revolutionary ROI.</p>
+              </div>
+
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/camera.jpg" alt="camera"> </a>
+                  <h3>Camera</h3>
+                  <p>Efficiently unleash cross-media information without cross-media value. </p>
+              </div>
+
+              <div class='col-lg-3 div-pic col-md-6 col-sm-6'>
+                  <a href="#"><img src="image/drone.jpg" alt="drone"> </a>
+                  <h3>Drone</h3>
+                  <p>Quickly maximize timely deliverables for real-time schemas. </p>
+              </div>
+            </div>
+        </div>
+        
+                  <!-- main image carousel -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+              <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img class='img-responsive' src="image/yellow-van.jpg" alt="cs">
+                <div class="carousel-caption">
+                  1280 by 720
+                </div>
+              </div>
+              <div class="item">
+                <img class='img-responsive' src="image/leaf-tree.jpg" alt="cs1">
+                <div class="carousel-caption">
+                  1280 by 720
+                </div>
+              </div>
+              
+              <div class="item">
+                <img class='img-responsive' src="image/drink-dog.jpg" alt="cs1">
+                <div class="carousel-caption">
+                  1280 by 720
+                </div>
+              </div>
+            </div>
+
+            <!-- play pause -->
+            <div class='color'>
+              <ul class='push-right-play-pause'>
+                <li> <a href=""> <img src="image/back.gif" alt="back"> </a> </li>
+                <li> <a href=""> <img src="image/go.jpg" alt="go"> </a> </li>
+              </ul>
+            </div>
+              
+            <!-- banner -->
+            <div class='banner'>
+              <ul>
+                <li>Follow Microsoft</li>
+                <li> <a href=""> <img src="image/facebook-icon1.png" alt=""> </a> </li>
+                <li> <a href=""> <img src="image/twitter-icon1.png" alt=""> </a> </li>
+              </ul>
+            </div>
+                
+            <!-- footer links -->
+            <div class='footer-link'>
+              
+            
+             <div class='row'>
+
+              <div class='col-md-2 col-sm-4'>
+                <div class='box1'>
+                  <h4>Sun Set</h4>
+                  <div class='space-link'><a href="#">Time</a> </div>
+                  <div class='space-link'><a href="#">Location</a> </div> 
+                  <div class='space-link'><a href="#">Place</a> </div>
+                  <div class='space-link'><a href="#">Directions</a> </div> 
+                  <div class='space-link'><a href="#">Partenrship</a> </div> 
+                </div>
+              </div>
+
+              <div class='col-md-2 col-sm-4'>
+                <div class='box1'>
+                  <h4>Mountains</h4>
+                  <div class='space-link'><a href="#">Mt. Rainer</a> </div> 
+                  <div class='space-link'><a href="#">Mt. Adams</a> </div> 
+                  <div class='space-link'><a href="#">Mt. Baker</a> </div> 
+                  <div class='space-link'><a href="#">Mt. Saint Helens</a> </div>  
+                  <div class='space-link'><a href="#">Glaciar Peak</a> </div> 
+                </div>
+              </div>
+             
+              <div class='col-md-2 col-sm-4'>
+                <div class='box1'>
+                  <h4>Bridges</h4>
+                  <div class='space-link'><a href="#">Golden Gate</a> </div> 
+                  <div class='space-link'><a href="#">Narrow</a> </div>
+                  <div class='space-link'><a href="#">Brooklyn Bridge</a> </div> 
+                  <div class='space-link'><a href="#">George Washington Bridge</a> </div> 
+                  <div class='space-link'><a href="#">Tower Bridge</a> </div> 
+                </div>
+              </div>
+              
+
+              
+              <div class='col-md-2 col-sm-4'>
+                <div class='box1'>
+                   <h4>Vans</h4>
+                   <div class='space-link'><a href="#">Authentic</a> </div> 
+                   <div class='space-link'><a href="#">Sk8-hi slim</a> </div> 
+                   <div class='space-link'><a href="#">Chukka boot</a> </div> 
+                   <div class='space-link'><a href="#">Brigata</a> </div> 
+                   <div class='space-link'><a href="#">Slip on</a> </div> 
+                  </div>
+                </div>
+              
+
+              
+                <div class='col-md-2 col-sm-4'>
+                  <div class='box1'>
+                    <h4>Cameras</h4>
+                    <div class='space-link'><a href="#">Cannon</a> </div>
+                    <div class='space-link'><a href="#">Nikon</a> </div> 
+                    <div class='space-link'><a href="#">Sony</a> </div>
+                    <div class='space-link'><a href="#">Panasonic</a> </div> 
+                    <div class='space-link'><a href="#">Olympus</a> </div> 
+                  </div>
+                </div>
+              
+
+              
+                <div class='col-md-2 col-sm-4'>
+                  <div class='box1'>
+                    <h4>Drones</h4>
+                    <div class='space-link'><a href="#">Sky viper</a> </div>
+                    <div class='space-link'><a href="#">Phantom</a> </div> 
+                    <div class='space-link'><a href="#">Hubsan</a> </div> 
+                    <div class='space-link'><a href="#">Walkera</a> </div>
+                    <div class='space-link'><a href="#">Protocol</a> </div> 
+                  </div>
+                </div>
+              
+              </div>
+            
+            </div>
+
+            <!-- footer terms -->
+
+            <nav>
+              <ul class='move-left hidden-xs '>
+                <li> <a href="https://github.com/jeremyduanewallace"> <img src="image/github-logo.png" alt="github"> English(United States)</a> </li>
+              </ul>
+
+              <ul class='move-right  hidden-xs hidden-sm hidden-md'>
+                <li> <a href="">Contact us</a> </li>
+                <li> <a href="">Privacy & cookies</a> </li>
+                <li> <a href="">Terms of use</a> </li>
+                <li> <a href="">Trademarks</a> </li>
+                <li> <a href="">About our ads</a> </li>
+                <li> <a href=""> &copy 2016 Microsoft</a> </li>
+              </ul>
+            </nav>
+           
+          
+  </body>
+</html> 
