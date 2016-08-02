@@ -25,9 +25,15 @@
 <style>
 
 
+.container-fluid {
+  margin: 90px;
+}
+
+
+
 .smallImage {
-  height: 100px;
-  width: 150px;
+  height: auto;
+  width: 100%;
 
 }
 
@@ -82,9 +88,20 @@
         <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Store
         <span class="caret"></span>
         </button>
-        <ul class="dropdown-menu">
+        <ul class="dropdown-menu multi-level" role="menu">
           <li><a href="#">Store home</a></li>
-          <li><a href="#">Devices</a></li>
+
+          <li class="dropdown-submenu">
+            <a href="#">Devices HOVER HERE</a></li>
+<!--             <a tabindex="-1" href="#"></a> -->
+            <ul class="dropdown-menu">
+              <li> <a href="#">Second Level Item</a></li>
+              <li> <a href="#">Second Level Item</a></li>
+              <li> <a href="#">Second Level Item</a></li>
+              </ul>
+
+
+
           <li><a href="#">Software</a></li>
           <li><a href="#">Apps</a></li>
           <li><a href="#">Games</a></li>
@@ -240,6 +257,7 @@
 <br>
 <br>
 
+<div class="container-fluid">
 <div class="row">
     <div class="col-md-3 mediumText">
       <div class="box">
@@ -277,10 +295,11 @@
       Microsoft Store
     </div>
 </div>
+</div>
 
-<br>
-<br>
 
+
+<div class="container-fluid">
 <div class="row">
     <div class="col-md-3 averageText">
       <div class="box">
@@ -310,7 +329,7 @@
       Discover, achieve, create with the besti-in-class technology. 
     </div>
 </div>
-
+</div>
 
 
 <br>
@@ -334,6 +353,7 @@
 
 
 
+<div class="container-fluid">
 <div class="row">
     <div class="col-md-3 mediumText">
       <div class="box">
@@ -371,10 +391,9 @@
       Microsoft Cloud
     </div>
 </div>
+</div>
 
-<br>
-<br>
-
+<div class="container-fluid">
 <div class="row">
     <div class="col-md-3 averageText">
       <div class="box">
@@ -404,7 +423,7 @@
       This cloud helps a global nonprofit improve healthcare. 
     </div>
 </div>
-
+</div>
 
 
 <br>
