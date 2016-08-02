@@ -35,3 +35,22 @@ $(document).ready(function() {
         }
     });
 });
+
+
+
+var game = function() {
+  var gameBoard_Selector = "#gameBoard";
+  var tile_Selector = ".tile";
+  var mole_ClassName = "mole";
+
+  var $gameBoard = $(gameBoard_Selector);
+  var $gameTiles = $gameBoard.find(tile_Selector);
+
+  var gameTime = 20 * 1000;
+  var turnTime = 1000;
+
+  var moleInterval;
+  var moleLifeMin = 1000;
+  var moleLifeMax = 3 * 1000;
+
+  var gameScore = 0;
