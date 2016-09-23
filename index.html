@@ -3,9 +3,227 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Microsoft</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <style>
+  	body {
+	font-family: 'Raleway', sans-serif;  	
+	}
+
+  	#banner{
+  		height: auto;
+  		width: auto;
+  		margin: 10px auto;
+  	}
+  	#banner2 {
+  		height: 450px; 
+  		width: auto;
+  		margin: 10px auto;
+  	}
+  	#thumb, #thumb2, #thumb3, #thumb4, #thumb5, #thumb6, #thumb7, #thumb8 {
+  		width: 250px;
+  		margin: 10px auto;
+  	}
+  	.banner {
+		position: relative;
+		vertical-align: bottom;
+		vertical-align: baseline;
+		padding-bottom: 40px;
+	}
+	.bannerText {
+		color: white;
+		position: absolute;
+		text-align: center;
+		width: 80%;
+		bottom: 20px;
+		left: 10%;	
+	}
+	.bannerTwo {
+		position: absolute;
+		height: 500px;
+		width: 70%;
+		bottom: 20px;
+		left: 10%;
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center; 
+	}
+	.bannerTitle {
+		font-size: 30px ;
+		padding-bottom: 15px;
+		margin-top: 300px;
+	}
+	.bannerSub {
+		font-size: 18px;
+		padding-bottom: 35px;
+	}
+	.itemsText{
+		text-align: center;
+		font-size: 20px;
+		height: auto;
+		margin: 0px auto;
+		padding: 10% auto;
+		padding-top: 15px;
+		display: inline-block;
+		vertical-align: baseline;
+		width: 90%;
+	}
+	.social {
+		background-color: #cccccc;
+		width: 100%;
+		margin-top: 50px;
+		margin-left: .1px;
+		padding-top: 9px;
+		padding-bottom: 9px;
+	}
+	.follow {
+		margin-left: 40px;
+		display: inline;
+		font-size: 18px;
+
+	}
+	.work {
+		text-align: center;
+		font-size: 23px;
+		margin-bottom: 20px;
+	}
+	.logo {
+		height: 23px;
+		margin-left: 40px;
+		margin-top: 9px;
+		margin-bottom: 9px;
+		
+	}
+	#search {
+		height: 35px;
+		width: 260px;
+		margin-left: 500px;
+		justify-content: right;
+		margin-top: 12px;	
+	}
+	.glyphicon {
+		margin-left: 10px;
+	}
+	@media (max-width: 1000px) {
+		#search, .glyphicon {
+			visibility: hidden;
+		}
+	}
+	.subtitle {
+		height: 50px;
+	}
+  </style>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+	<div class="container-fluid">
+		<div class="row">
+		<div class="col-xs-12">
+			<div class="header">
+				<img class="logo" src="https://assets.onestore.ms/cdnfiles/onestorerolling-1608-23000/shell/v3/images/logo/microsoft.png"> 
+				<input type="text" id="search" name="search" placeholder="Search Microsoft.com" <a href='#'><span class='glyphicon glyphicon-search'></span></a> <a href='#'><span class='glyphicon glyphicon-shopping-cart'></span></a>
+			</div>
+		</div>
+	</div>
+		<div class="row banner">
+			<div class="col-xs-12">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/REFCE4.jpg?version=e15c4ae0-f218-f984-884b-59f63a1d0f3d" class="img-responsive" id="banner">
+				<span class="bannerText">
+					<div class="bannerTitle">Limited-time offer: Get $100 off select Dell XPS 13 PCs*</div>
+					<div class="bannerSub">Learn More <small>></small>    Shop Now <small>></small> </div>
+				</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/REOOmF_368_207.jpg?version=4a54fe62-dc13-4daa-720d-96dfd4cbcded" class="img-responsive" id="thumb">
+				<div class="itemsText">
+ 					<p class="title">OneNote</p>
+ 					<p class="subtitle">Stay organized this school Year. Download it today.</p>
+ 				</div>	
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/REBnTR_368_207.jpg?version=b506618e-a715-26f3-6122-37e0d7f952cf" class="img-responsive" id="thumb2">
+				<div class="itemsText">
+ 					<p class="title">Xbox One S</p>
+ 					<p class="subtitle">Sleeker, slimmer, sharper. Buy now.</p>
+ 				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/MSBand_1006_368x207_EN_US.jpg?version=afac2939-2f13-8707-f53c-3ac44be6900c" class="img-responsive" id="thumb3">
+				<div class="itemsText">
+ 					<p class="title">Microsoft Band</p>
+ 					<p class="subtitle">Live healthier and achieve more. Buy Now.</p>
+ 				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/REuD3Y_368_207.jpg?version=bfa642e0-dbd2-91bd-0246-3bfdae7e845e" class="img-responsive" id="thumb4">
+				<div class="itemsText">
+ 					<p class="title">Microsoft Store</p>
+ 					<p class="subtitle">Find what you need for home, school, work, and fun.</p>
+ 				</div>
+			</div>
+		</div>
+		<div class="row banner">
+			<div class="col-xs-12">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/REJrnq.jpg?version=E13718EB-F1FA-3491-7CCE-6186D90E81BE&" class="img-responsive" id="banner2">
+				<div class="bannerTwo">
+					<div class="bannerTitle">Great apps for Windows</div>
+					<div class="bannerSub">Find free and paid apps to help you stay entertained, be productive, or get creative.
+					<br><br>
+					<p><strong>Explore apps at the Windows Store</strong><small>></small> </p></div>
+				</div>
+			</div>
+		</div>
+		<div class="work"><p>For Work</p></div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/Ofc365_Enterprise_1201_368x207_EN_US.jpg?version=f38c0b5a-6635-80f7-0183-d19c564fed84" class="img-responsive" id="thumb5">
+				<div class="itemsText">
+ 					<p class="title">New Office 365 for Enterprise</p>
+ 					<p class="subtitle">Learn more about all the capabilities now available.</p>
+ 				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/Win10_EntEval_0729_368x207_EN_US.jpg?version=6cb796f2-af1b-ee08-8b01-173a90f75fa4" class="img-responsive" id="thumb6">
+				<div class="itemsText">
+ 					<p class="title">Windows 10 Enterprise</p>
+ 					<p class="subtitle">Download the free 90-day evaluation for IT professionals.</p>
+ 				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/HoloLens_DevEd_0215_368x207_EN_US.jpg?version=9430a5d3-d649-c45c-d71f-9e759d112be0" class="img-responsive" id="thumb7">
+				<div class="itemsText">
+ 					<p class="title">Microsoft HoloLens</p>
+ 					<p class="subtitle">Order the Development Edition. Transform your world.</p>
+ 				</div>
+			</div>
+			<div class="col-xs-12 col-sm-6 col-md-3">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/REF2eK_368_207.jpg?version=bd7278a5-f9a4-8672-394f-f851343cca23" class="img-responsive" id="thumb8">
+				<div class="itemsText">
+ 					<p class="title">Microsoft Cloud</p>
+ 					<p class="subtitle">This cloud helps a global nonprofit improve health care.</p>
+ 				</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<img src="https://c.s-microsoft.com/en-us/CMSImages/REOqXb.jpg?version=63a81298-0ae2-f9c7-abc3-511b308ece19" class="img-responsive" id="banner3">
+				<span class="bannerText">
+					<div class="bannerTitle">Kate Stone Perez is helping indie developers change the game at Xbox</div>
+					<div class="bannerSub">See how <small>></small> </div>
+				</span>
+			</div>
+		</div>
+		<div class="row social">
+			<div class="col-xs-12">
+				<div class="follow">Follow Microsoft</div>
+				<img class="icon" src="https://c.s-microsoft.com/en-us/CMSImages/HPFeb15_social_Facebook.png?version=7f2bd528-7148-5a76-d124-92ede5ee71c5">
+				<img class="icon" src="https://c.s-microsoft.com/en-us/CMSImages/HPFeb15_social_Twitter.png?version=6eb346b9-c834-c911-b448-1f01aa7d0201">
+			</div>
+		</div>
+	</div>
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+ 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 </html>
