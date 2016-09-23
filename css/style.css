@@ -8,6 +8,7 @@ body {
 	color:white;
 	font-size:2em;
 	text-align:left;
+	margin-bottom: 20px;
 }
 
 .bigger {
@@ -53,10 +54,22 @@ p {
 	text-align:center;
 }
 
+@media(max-width: 676px) {
+	input[type="text"] {
+		margin-left:5px;
+		width:200px;
+		height: auto;
+		font-size: 16px;
+	}
+}
+
 @media(max-width: 991px) {
 	.xbox {
 		height: 250px;
 		width:auto;
+	}
+	.footer {
+		font-size: 12px;
 	}
 }
 
@@ -65,11 +78,17 @@ p {
 		height: 320px;
 		width:auto;
 	}
+	input[type="text"] {
+		margin-left:40%;
+	}
 }
 
 @media(min-width: 1200px) {
 	.xbox {
 		height: 245px;
 		width:auto;
+	}
+	input[type="text"] {
+		margin-left:50%;
 	}
 }
