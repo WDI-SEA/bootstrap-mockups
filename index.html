@@ -3,9 +3,331 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello Front-End</title>
+  <title>Bootstrap Layout!!</title>
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  	.lrgImg{
+  		background-color:lightgrey;
+  	}
+  	.mainImg {
+  		background-image:url(img/902.jpeg);
+  		background-size:1500px;
+  		background-position:center;
+  		height:320px;
+  	}
+  	.lrgImg {
+  		background-image:url(img/881.jpeg);
+  		background-size:1500px;
+  		background-position:center;
+  		height:480px;
+  		margin-top:60px;
+  		margin-bottom:28px;
+  		padding-left:50px;
+  		padding-top:80px;
+  	}
+  	.bottomImg {
+  		background-image:url(img/974.jpeg);
+  		background-size:1200px;
+  		background-position:center bottom;
+  		margin-top:60px;
+  		height:320px;
+  	}
+  	.topBar {
+  		height:42px;
+  		background-color:rgb(40,40,40);
+  		text-align:right;
+  		font-size:20px;
+  		font-color:white;
+  		line-height:2.15;
+  	}
+  	.prodPhotos {
+  		background-color:white;
+  		margin-top:25px;
+  	}
+  	.footer {
+  		background-color:#F2F3F4;
+  		margin-top:30px;
+  		padding-top:20px;
+  		padding-bottom:10px;
+  		border-top:30px solid #D7DBDD;
+  	}
+  	.container {
+  		width:100%;
+  	}
+  	.mainText {
+  		line-height:1.5;
+  	}
+  	img {
+  		margin-bottom:16px;
+  	}
+  	p {
+  		margin-top:10px;
+  	}
+  	h1 {
+  		margin-top:14px;
+  	}
+  	h2 {
+  		font-weight:normal;
+  		font-size:28px;
+  		margin-top:22px;
+  		margin-bottom:30px;
+  	}
+  	h3 {
+  		color:white;
+  		font-weight:normal;
+  	}
+  	h4 {
+  		margin-top:0px;
+  		margin-bottom:0px;
+  		font-size:23px;
+  		font-weight:normal;
+  	}
+  	a {
+  		color:#797D7F;
+  		font-size:12px;
+  	}
+  	a:hover {
+  		color:#797D7F;
+  	}
+  	strong {
+  		color:#797D7F;
+  	}
+  	.icon {
+  		margin-right:6px;
+  	}
+  </style>
 </head>
 <body>
-  <h1>Hello Front-End</h1>
+  <div class="container">
+
+  	<div class="row">
+  		<div class="col-xs-12 topBar">
+	  	<!-- top bar -->
+	  	<span class="glyphicon glyphicon-search" style="color:white">
+	  	<span class="icon glyphicon glyphicon-shopping-cart" style="color:white">
+	  	<span class="icon glyphicon glyphicon-menu-hamburger" style="color:white">
+  		</div>
+  	</div>
+
+  	<div class="row">
+  		<div class="col-xs-12 mainImg">
+  		<!-- main large image -->
+  		</div>
+  	</div>
+
+  	<div class="row">
+  		<div class="col-xs-12">
+	  		<div class="mainText">
+		  		<h2 class="text-center">
+		  		Lorem ipsum dolor sit amet, consecteturm at
+		  		</h2>
+	  		</div>
+  		</div>
+  	</div>
+
+
+  	<div class="row">
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+	  		<div class="prodPhotos text-center">
+		  		<img src="https://unsplash.it/360/200/?image=973">
+		  		<h4>
+		  		Fusce a tempus
+		  		</h4>
+		  		<p>
+		  		Morbi non sodales mi.
+		  		</p>
+		  		
+	  		</div>
+  		</div>
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+	  		<div class="prodPhotos text-center">
+		  		<img src="https://unsplash.it/360/200/?image=972">
+		  		
+		  		<h4>
+		  		Vivamus lacinia
+		  		</h4>
+		  		<p>
+		  		Quisque mollis nunc a pulvinar.
+		  		</p>
+	  		</div>
+  		</div>
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+	  		<div class="prodPhotos text-center">
+		  		<img src="https://unsplash.it/360/200/?image=912">
+		  		
+		  		<h4>
+		  		Maecenas tincidunt
+		  		</h4>
+		  		<p>
+		  		Praesent sollicitudin nunc eu est
+		  		</p>
+	  		</div>
+  		</div>
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3">
+	  		<div class="prodPhotos text-center">
+		  		<img src="https://unsplash.it/360/200/?image=914">
+		  		
+		  		<h4>
+		  		Morbi interdum
+		  		</h4>
+		  		<p>
+		  		Duis laoreet fringilla ex.
+		  		</p>
+	  		</div>
+  		</div>
+  	</div>
+
+
+
+  	<div class="row">
+  		<div class="col-xs-12 lrgImg">
+  		<!-- Large image light grey background -->
+  		<h3>
+  		Great apps for Windows
+  		</h3>
+  		<p style="color:white; font-size:15px; margin-top:20px">
+  		Find free and paid apps to help you stay entertained,
+  		<br>
+  		be productive, or get creative.
+  		</p>
+  		</div>
+  	</div>
+
+  	<div class="row">
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 prodPhotos">
+	  		<div class="prodPhotos text-center">
+			  		<img src="https://unsplash.it/360/200/?image=868">
+			  		<h4>
+			  		Vivamus lacinia
+			  		</h4>
+			  		<p>
+			  		Nullam porta, tortor vitae.
+			  		</p>
+		  	</div>
+  		</div>
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 prodPhotos">
+  		<div class="prodPhotos text-center">
+			  		<img src="https://unsplash.it/360/200/?image=684">
+			  		<h4>
+			  		Maecenas tincidunt
+			  		</h4>
+			  		<p>
+			  		Quisque mollis nunc a pulvinar.
+			  		</p>
+		  	</div>
+  		</div>
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 prodPhotos">
+  		<div class="prodPhotos text-center">
+			  		<img src="https://unsplash.it/360/200/?image=640">
+			  		<h4>
+			  		Fusce a tempus
+			  		</h4>
+			  		<p>
+			  		Duis laoreet fringilla ex.
+			  		</p>
+		  	</div>
+  		</div>
+  		<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3 prodPhotos">
+  		<div class="prodPhotos text-center">
+			  		<img src="https://unsplash.it/360/200/?image=705">
+			  		<h4>
+			  		Morbi interdum
+			  		</h4>
+			  		<p>
+			  		Praesent sollicitudin nunc eu est.
+			  		</p>
+		  	</div>
+  		</div>
+  	</div>
+
+   	<div class="row">
+  		<div class="col-xs-12 bottomImg">
+  		<!-- Large bottom image -->
+  		</div>
+  	</div>
+
+   	<div class="row">
+  		<div class="col-xs-12">
+  			<h2 class="text-center">
+		  		Nunc luctus, leo in scelerisque viverra
+		  	</h2>
+  		</div>
+  	</div>
+
+   	<div class="row footer">
+  		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+	  		<strong>Lorem ipsum</strong>
+	  		<ul class="list-unstyled">
+	  			<a href="#"><li>dolor sit</li></a>
+	  			<a href="#"><li>consectetur</li></a>
+	  			<a href="#"><li>adipiscing</li></a>
+	  			<a href="#"><li>Donec</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  		</ul>
+  		</div>
+  		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+  			<strong>Donec sodales</strong>
+	  		<ul class="list-unstyled">
+	  			<a href="#"><li>Nunc</li></a>
+	  			<a href="#"><li>consectetur</li></a>
+	  			<a href="#"><li>adipiscing</li></a>
+	  			<a href="#"><li>turpis</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  		</ul>
+  		</div>
+  		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+  			<strong>Lorem ipsum</strong>
+	  		<ul class="list-unstyled">
+	  			<a href="#"><li>dolor sit</li></a>
+	  			<a href="#"><li>consectetur</li></a>
+	  			<a href="#"><li>adipiscing</li></a>
+	  			<a href="#"><li>Donec</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  			<a href="#"><li>Donec sodales</li></a>
+	  		</ul>
+  		</div>
+  		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+  			<strong>Maecenas</strong>
+	  		<ul class="list-unstyled">
+	  			<a href="#"><li>dolor sit</li></a>
+	  			<a href="#"><li>consectetur</li></a>
+	  			<a href="#"><li>adipiscing</li></a>
+	  			<a href="#"><li>Donec</li></a>
+	  			<a href="#"><li>Morbi</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  		</ul>
+  		</div>
+  		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+  			<strong>Aliquam ipsum</strong>
+	  		<ul class="list-unstyled">
+	  			<a href="#"><li>dolor sit</li></a>
+	  			<a href="#"><li>consectetur</li></a>
+	  			<a href="#"><li>Morbi</li></a>
+	  			<a href="#"><li>Donec</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  		</ul>
+  		</div>
+  		<div class="col-xs-12 col-sm-4 col-md-2 col-lg-2">
+  			<strong>Morbi</strong>
+	  		<ul class="list-unstyled">
+	  			<a href="#"><li>dolor sit</li></a>
+	  			<a href="#"><li>consectetur</li></a>
+	  			<a href="#"><li>adipiscing</li></a>
+	  			<a href="#"><li>Donec</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  			<a href="#"><li>lectus</li></a>
+	  		</ul>
+  		</div>
+  	</div>
+
+
+
+  </div>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 </body>
 </html>
