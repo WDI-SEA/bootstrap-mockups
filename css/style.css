@@ -1,0 +1,77 @@
+body {
+	width: 100%;
+	font-family: 'Catamaran', sans-serif;
+	font-weight: lighter;
+}
+
+.hero-image {
+	vertical-align: baseline;
+	vertical-align: bottom;
+}
+
+/*.banner-image-1{
+	background-image: url(https://c.s-microsoft.com/en-us/CMSImages/REFCE4.jpg?version=f1f8e043-4c65-d0bd-9c01-4c41642b7ac2);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+	overflow: hidden;
+}*/
+
+.products-wrapper {
+	height: auto;
+	vertical-align: baseline;
+}
+
+.products {
+	margin: 0 auto;
+	padding: 10% auto;
+	display: inline-block;
+	text-align: center;
+}
+
+.banner-image {
+	height: 400px;
+	width: 100%;
+	background-image: url(https://c.s-microsoft.com/en-us/CMSImages/Win_AppsStoreBG2_1920x580_EN_US.jpg?version=AB0CADEA-4E21-8E34-E820-31E4B1EA00F1);
+	background-repeat: no-repeat;
+	background-size: fill; 
+	background-position: center -10px;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	margin-bottom: 20px;
+}
+
+.textbox-wrapper {
+	color: #2F2F2F;
+	margin: 10px;
+	padding: 10px 0;
+}
+
+.title {
+	font-size: 20px;
+	margin: 0 0 15px 0;
+	line-height: 24px;
+}
+
+.subtitle {
+	font-size: 1.125em;
+}
+
+.link {
+	color:#0060ac;
+}
+
+.social-links-wrapper {
+	width: 100%;
+	background-color: #ccc;
+	padding-top: .5em;
+	padding-bottom: .5em;
+	font-size: 18px;
+}
+
+.social-links {
+	margin-left: 30px;
+	margin-right: .5em;
+	vertical-align: center;
+}
