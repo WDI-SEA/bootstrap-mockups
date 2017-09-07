@@ -1,0 +1,31 @@
+.big {
+
+}
+.small {
+
+}
+.search {
+	font-size: 25px;
+	border-radius: 25px;
+	vertical-align: bottom;
+	max-width: 250px;
+}
+@media(max-width: 500px) {
+	.search {
+		width: 200px;
+	}
+	button {
+		width: 100px;
+	}
+}
+img {
+	margin: 0 auto;
+}
+body h1 {
+	color: green;
+	font-size: 5em;
+	text-align: left;
+	background-color: grey;
+	text-align: center;
+	border-radius: 25px;
+}
