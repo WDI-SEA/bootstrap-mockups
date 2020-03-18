@@ -1,0 +1,28 @@
+body {
+	margin: 0 200px;
+}
+
+footer {
+	background-color: lightgray;
+
+}
+
+img {
+	padding: 30px;
+}
+
+.banner {
+	width: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.logo {
+	width: 200px;
+}
+
+.product {
+	width: 100%;
+}
+
