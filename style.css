@@ -1,0 +1,54 @@
+* {
+    margin: 0 auto;
+
+}
+
+div {
+    text-align: center;
+    
+}
+
+#container {
+    width: 1300px;
+
+}
+
+.row {
+    display: flex;
+    align-content: center;
+}
+
+#menu {
+    align-items: center;
+}
+
+#logoImg img {
+    height: 120px;
+}
+
+#bannerImg{
+    width: auto;
+}
+
+#cont{
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+
+#menuSpace {
+    width: 150px;
+}
+
+
+.blankRow{
+    height: 40px;
+}
+.descText {
+    width: 278px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
