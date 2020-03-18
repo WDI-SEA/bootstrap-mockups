@@ -10,7 +10,13 @@ nav {
 #banner {
     max-width: 100%;
     max-height: auto;
+    margin: 0;
+    padding: 0;
 }
-/* body {
-    margin: 20%;
-} */
+#lovedog {
+    background-color: navy;
+    color: white;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
