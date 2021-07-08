@@ -1,0 +1,32 @@
+#logo img {
+    width:130%;
+    height: auto;
+}
+
+.container{
+  margin-top: 20px;
+}
+
+@media only screen and (min-width : 1200px) {
+  width:100%;
+}
+
+#row2{
+  margin: 50px 0 0 0;
+}
+
+#row3{
+  margin: 70px 0 0 0;
+}
+
+#row5{
+  height: 40px;
+  background-color: gray;
+  margin-top: 30px;
+  color: white;
+}
+
+#fol{
+  margin-top: 10px;
+}
+
